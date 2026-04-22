@@ -1,0 +1,205 @@
+{
+  "bucket": {
+    "allowBundleRedeploy": false,
+    "allowPublicRead": true,
+    "createdTimestamp": 1760093125341,
+    "description": "",
+    "identifier": "Data Ingestion",
+    "link": {
+      "href": "buckets/078c2ec2-db39-4bc9-9652-6f1b0f7eadd9",
+      "params": {
+        "rel": "self"
+      }
+    },
+    "name": "Data Ingestion",
+    "permissions": {
+      "canDelete": true,
+      "canRead": true,
+      "canWrite": true
+    }
+  },
+  "externalControllerServices": {},
+  "flow": {
+    "bucketIdentifier": "078c2ec2-db39-4bc9-9652-6f1b0f7eadd9",
+    "bucketName": "Data Ingestion",
+    "createdTimestamp": 1769513890454,
+    "description": "",
+    "identifier": "Sample testing",
+    "link": {
+      "href": "buckets/078c2ec2-db39-4bc9-9652-6f1b0f7eadd9/flows/6de13007-ad6f-4300-89fe-4bd42dde9ef7",
+      "params": {
+        "rel": "self"
+      }
+    },
+    "modifiedTimestamp": 1769587774664,
+    "name": "Sample testing",
+    "type": "Flow",
+    "versionCount": 2
+  },
+  "flowContents": {
+    "comments": "",
+    "componentType": "PROCESS_GROUP",
+    "connections": [
+      {
+        "backPressureDataSizeThreshold": "1 GB",
+        "backPressureObjectThreshold": 10000,
+        "bends": [],
+        "componentType": "CONNECTION",
+        "destination": {
+          "comments": "",
+          "groupId": "179f42bf-dd7e-3fa9-8f43-095dabe889f7",
+          "id": "008cb2cf-0201-3042-b381-b4d6db94c256",
+          "name": "Funnel",
+          "type": "FUNNEL"
+        },
+        "flowFileExpiration": "0 sec",
+        "groupIdentifier": "179f42bf-dd7e-3fa9-8f43-095dabe889f7",
+        "identifier": "89f1336f-174a-3202-8e5b-9865e3e730c0",
+        "labelIndex": 1,
+        "loadBalanceCompression": "DO_NOT_COMPRESS",
+        "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
+        "name": "",
+        "partitioningAttribute": "",
+        "prioritizers": [],
+        "selectedRelationships": [
+          "success"
+        ],
+        "source": {
+          "comments": "",
+          "groupId": "179f42bf-dd7e-3fa9-8f43-095dabe889f7",
+          "id": "9b91971b-a059-3fc0-ae50-27df1ae955c4",
+          "name": "GenerateFlowFile",
+          "type": "PROCESSOR"
+        },
+        "zIndex": 0
+      }
+    ],
+    "controllerServices": [],
+    "defaultBackPressureDataSizeThreshold": "1 GB",
+    "defaultBackPressureObjectThreshold": 10000,
+    "defaultFlowFileExpiration": "0 sec",
+    "flowFileConcurrency": "UNBOUNDED",
+    "flowFileOutboundPolicy": "STREAM_WHEN_AVAILABLE",
+    "funnels": [
+      {
+        "componentType": "FUNNEL",
+        "groupIdentifier": "179f42bf-dd7e-3fa9-8f43-095dabe889f7",
+        "identifier": "008cb2cf-0201-3042-b381-b4d6db94c256",
+        "position": {
+          "x": 426,
+          "y": 396
+        }
+      }
+    ],
+    "identifier": "179f42bf-dd7e-3fa9-8f43-095dabe889f7",
+    "inputPorts": [],
+    "labels": [],
+    "name": "sample",
+    "outputPorts": [],
+    "position": {
+      "x": 432,
+      "y": 160
+    },
+    "processGroups": [],
+    "processors": [
+      {
+        "autoTerminatedRelationships": [],
+        "bulletinLevel": "WARN",
+        "bundle": {
+          "artifact": "nifi-standard-nar",
+          "group": "org.apache.nifi",
+          "version": "1.15.0"
+        },
+        "comments": "",
+        "componentType": "PROCESSOR",
+        "concurrentlySchedulableTaskCount": 1,
+        "executionNode": "ALL",
+        "groupIdentifier": "179f42bf-dd7e-3fa9-8f43-095dabe889f7",
+        "identifier": "9b91971b-a059-3fc0-ae50-27df1ae955c4",
+        "name": "GenerateFlowFile",
+        "penaltyDuration": "30 sec",
+        "position": {
+          "x": 352,
+          "y": 88
+        },
+        "properties": {
+          "character-set": "UTF-8",
+          "File Size": "0B",
+          "generate-ff-custom-text": "Nifi custom data",
+          "Batch Size": "1",
+          "Unique FlowFiles": "false",
+          "Data Format": "Text"
+        },
+        "propertyDescriptors": {
+          "character-set": {
+            "displayName": "Character Set",
+            "identifiesControllerService": false,
+            "name": "character-set",
+            "sensitive": false
+          },
+          "File Size": {
+            "displayName": "File Size",
+            "identifiesControllerService": false,
+            "name": "File Size",
+            "sensitive": false
+          },
+          "mime-type": {
+            "displayName": "Mime Type",
+            "identifiesControllerService": false,
+            "name": "mime-type",
+            "sensitive": false
+          },
+          "generate-ff-custom-text": {
+            "displayName": "Custom Text",
+            "identifiesControllerService": false,
+            "name": "generate-ff-custom-text",
+            "sensitive": false
+          },
+          "Batch Size": {
+            "displayName": "Batch Size",
+            "identifiesControllerService": false,
+            "name": "Batch Size",
+            "sensitive": false
+          },
+          "Unique FlowFiles": {
+            "displayName": "Unique FlowFiles",
+            "identifiesControllerService": false,
+            "name": "Unique FlowFiles",
+            "sensitive": false
+          },
+          "Data Format": {
+            "displayName": "Data Format",
+            "identifiesControllerService": false,
+            "name": "Data Format",
+            "sensitive": false
+          }
+        },
+        "runDurationMillis": 0,
+        "scheduledState": "ENABLED",
+        "schedulingPeriod": "0 sec",
+        "schedulingStrategy": "TIMER_DRIVEN",
+        "style": {},
+        "type": "org.apache.nifi.processors.standard.GenerateFlowFile",
+        "yieldDuration": "1 sec"
+      }
+    ],
+    "remoteProcessGroups": [],
+    "variables": {}
+  },
+  "flowEncodingVersion": "1.0",
+  "parameterContexts": {},
+  "snapshotMetadata": {
+    "author": "anonymous",
+    "bucketIdentifier": "Data Ingestion",
+    "comments": "",
+    "flowIdentifier": "Sample testing",
+    "link": {
+      "href": "buckets/078c2ec2-db39-4bc9-9652-6f1b0f7eadd9/flows/6de13007-ad6f-4300-89fe-4bd42dde9ef7/versions/1",
+      "params": {
+        "rel": "content"
+      }
+    },
+    "timestamp": 1769513890692,
+    "version": 1
+  }
+}
