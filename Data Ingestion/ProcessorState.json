@@ -47,16 +47,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
+          "groupId": "1f0b712f-5063-350b-910f-e555c322e773",
           "id": "c208b024-5719-315f-aae5-d9f219da273c",
-          "instanceIdentifier": "b517b849-de31-303c-363f-319560ef9409",
+          "instanceIdentifier": "dbbec858-8389-3f75-095f-766bcd68f38b",
           "name": "LogAttribute",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
+        "groupIdentifier": "1f0b712f-5063-350b-910f-e555c322e773",
         "identifier": "a7cbf14f-e239-3f72-9cfd-3ed65bc83b6b",
-        "instanceIdentifier": "d5fc3f19-3fc8-31f5-7722-f24d379fd3f3",
+        "instanceIdentifier": "2e474a88-1dbe-3776-f17e-819bdfc4a397",
         "labelIndex": 1,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -69,9 +69,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
+          "groupId": "1f0b712f-5063-350b-910f-e555c322e773",
           "id": "7e238d83-f175-3c50-8ff9-3c55b38f2cb3",
-          "instanceIdentifier": "8503d27d-8c72-31d6-0157-02cc623a6cdf",
+          "instanceIdentifier": "ea378180-afbf-3b3b-c6d2-b9e0456ef1b5",
           "name": "ConvertRecord",
           "type": "PROCESSOR"
         },
@@ -84,16 +84,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
-          "id": "c208b024-5719-315f-aae5-d9f219da273c",
-          "instanceIdentifier": "b517b849-de31-303c-363f-319560ef9409",
-          "name": "LogAttribute",
+          "groupId": "1f0b712f-5063-350b-910f-e555c322e773",
+          "id": "7e238d83-f175-3c50-8ff9-3c55b38f2cb3",
+          "instanceIdentifier": "ea378180-afbf-3b3b-c6d2-b9e0456ef1b5",
+          "name": "ConvertRecord",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
-        "identifier": "8d33a91d-dfe2-3ed6-8092-3267bbe59437",
-        "instanceIdentifier": "b013f99d-e777-3018-cd57-774e2f5bfbb1",
+        "groupIdentifier": "1f0b712f-5063-350b-910f-e555c322e773",
+        "identifier": "1f732fa8-63ca-3f35-b4e2-295713acea79",
+        "instanceIdentifier": "536f71de-e11a-3d07-a57b-c335820f7ab6",
         "labelIndex": 1,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -101,13 +101,13 @@
         "partitioningAttribute": "",
         "prioritizers": [],
         "selectedRelationships": [
-          "failure"
+          "success"
         ],
         "source": {
           "comments": "",
-          "groupId": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
+          "groupId": "1f0b712f-5063-350b-910f-e555c322e773",
           "id": "ba186f8b-d822-3dc7-960d-a9898b6dc0ce",
-          "instanceIdentifier": "bc176f3f-36af-3f83-2db6-f3ca04dda994",
+          "instanceIdentifier": "c18b72f6-1aff-3be1-2be1-c45c97590fd2",
           "name": "ExecuteSQL",
           "type": "PROCESSOR"
         },
@@ -120,16 +120,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
-          "id": "7e238d83-f175-3c50-8ff9-3c55b38f2cb3",
-          "instanceIdentifier": "8503d27d-8c72-31d6-0157-02cc623a6cdf",
-          "name": "ConvertRecord",
+          "groupId": "1f0b712f-5063-350b-910f-e555c322e773",
+          "id": "c208b024-5719-315f-aae5-d9f219da273c",
+          "instanceIdentifier": "dbbec858-8389-3f75-095f-766bcd68f38b",
+          "name": "LogAttribute",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
-        "identifier": "1f732fa8-63ca-3f35-b4e2-295713acea79",
-        "instanceIdentifier": "7f287d20-371b-3d63-036b-fd7dc6154f08",
+        "groupIdentifier": "1f0b712f-5063-350b-910f-e555c322e773",
+        "identifier": "8d33a91d-dfe2-3ed6-8092-3267bbe59437",
+        "instanceIdentifier": "6ceb0b74-0c15-3c65-c58e-0505abf7e7cf",
         "labelIndex": 1,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -137,13 +137,13 @@
         "partitioningAttribute": "",
         "prioritizers": [],
         "selectedRelationships": [
-          "success"
+          "failure"
         ],
         "source": {
           "comments": "",
-          "groupId": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
+          "groupId": "1f0b712f-5063-350b-910f-e555c322e773",
           "id": "ba186f8b-d822-3dc7-960d-a9898b6dc0ce",
-          "instanceIdentifier": "bc176f3f-36af-3f83-2db6-f3ca04dda994",
+          "instanceIdentifier": "c18b72f6-1aff-3be1-2be1-c45c97590fd2",
           "name": "ExecuteSQL",
           "type": "PROCESSOR"
         },
@@ -170,9 +170,9 @@
             "type": "org.apache.nifi.serialization.RecordReaderFactory"
           }
         ],
-        "groupIdentifier": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
+        "groupIdentifier": "1f0b712f-5063-350b-910f-e555c322e773",
         "identifier": "5cce403b-5a2f-3317-9d02-aeb22faaba21",
-        "instanceIdentifier": "927a9cf6-019d-1000-9dfc-42c7f960fadd",
+        "instanceIdentifier": "d52a2a6f-8122-371d-c67a-552bc5ffc535",
         "name": "AvroReader",
         "properties": {
           "schema-name": "${schema.name}",
@@ -252,9 +252,9 @@
             "type": "org.apache.nifi.serialization.RecordSetWriterFactory"
           }
         ],
-        "groupIdentifier": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
+        "groupIdentifier": "1f0b712f-5063-350b-910f-e555c322e773",
         "identifier": "31514e12-886a-3859-b5a3-02cfc1e260f8",
-        "instanceIdentifier": "927af36e-019d-1000-9c9a-a6e2e611a661",
+        "instanceIdentifier": "6b63d0ef-f8d0-3a76-a0b4-cf6a988558dd",
         "name": "JsonRecordSetWriter",
         "properties": {
           "Allow Scientific Notation": "false",
@@ -406,9 +406,9 @@
             "type": "org.apache.nifi.dbcp.DBCPService"
           }
         ],
-        "groupIdentifier": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
+        "groupIdentifier": "1f0b712f-5063-350b-910f-e555c322e773",
         "identifier": "0ca50aa3-43e9-3736-a2bb-d637b0f83d4b",
-        "instanceIdentifier": "fac0b440-58c7-31c8-056d-3419c156acb6",
+        "instanceIdentifier": "bfc4b394-43fc-3708-2796-c4cb8bc7bfe5",
         "name": "DBCPConnectionPool",
         "properties": {
           "dbcp-min-idle-conns": "0",
@@ -423,7 +423,7 @@
           "dbcp-soft-min-evictable-idle-time": "-1",
           "database-driver-locations": "/opt/nifi/nifi-current/drivers/mysql-connector-j-8.0.31.jar",
           "dbcp-max-idle-conns": "8",
-          "Password": "#{DBPassword}"
+          "Password": "#{DBCP Password}"
         },
         "propertyDescriptors": {
           "dbcp-min-idle-conns": {
@@ -535,17 +535,17 @@
     "flowFileConcurrency": "UNBOUNDED",
     "flowFileOutboundPolicy": "STREAM_WHEN_AVAILABLE",
     "funnels": [],
-    "identifier": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
+    "identifier": "1f0b712f-5063-350b-910f-e555c322e773",
     "inputPorts": [],
-    "instanceIdentifier": "927262d4-019d-1000-03a2-09ac87a3ab71",
+    "instanceIdentifier": "b451ef8b-019d-1000-0870-22ca359f90af",
     "labels": [],
     "logFileSuffix": "",
     "name": "ProcessorState",
     "outputPorts": [],
     "parameterContextName": "Processor State",
     "position": {
-      "x": 120,
-      "y": -58.5
+      "x": -1316.4950948956425,
+      "y": 152.5175926755376
     },
     "processGroups": [],
     "processors": [
@@ -562,9 +562,9 @@
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
+        "groupIdentifier": "1f0b712f-5063-350b-910f-e555c322e773",
         "identifier": "c208b024-5719-315f-aae5-d9f219da273c",
-        "instanceIdentifier": "b517b849-de31-303c-363f-319560ef9409",
+        "instanceIdentifier": "dbbec858-8389-3f75-095f-766bcd68f38b",
         "maxBackoffPeriod": "10 mins",
         "name": "LogAttribute",
         "penaltyDuration": "30 sec",
@@ -665,9 +665,9 @@
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
+        "groupIdentifier": "1f0b712f-5063-350b-910f-e555c322e773",
         "identifier": "ba186f8b-d822-3dc7-960d-a9898b6dc0ce",
-        "instanceIdentifier": "bc176f3f-36af-3f83-2db6-f3ca04dda994",
+        "instanceIdentifier": "c18b72f6-1aff-3be1-2be1-c45c97590fd2",
         "maxBackoffPeriod": "10 mins",
         "name": "ExecuteSQL",
         "penaltyDuration": "30 sec",
@@ -798,9 +798,9 @@
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "754dbb6e-f66c-3692-a1f9-10d913393c2b",
+        "groupIdentifier": "1f0b712f-5063-350b-910f-e555c322e773",
         "identifier": "7e238d83-f175-3c50-8ff9-3c55b38f2cb3",
-        "instanceIdentifier": "8503d27d-8c72-31d6-0157-02cc623a6cdf",
+        "instanceIdentifier": "ea378180-afbf-3b3b-c6d2-b9e0456ef1b5",
         "maxBackoffPeriod": "10 mins",
         "name": "ConvertRecord",
         "penaltyDuration": "30 sec",
@@ -869,6 +869,12 @@
         },
         {
           "description": "",
+          "name": "DBCP Password",
+          "provided": false,
+          "sensitive": true
+        },
+        {
+          "description": "",
           "name": "DataBaseDriverClass",
           "provided": false,
           "sensitive": false,
@@ -895,15 +901,15 @@
   "snapshotMetadata": {
     "author": "anonymous",
     "bucketIdentifier": "Data Ingestion",
-    "comments": "Version configured for gitlab, parsing SQL records.",
+    "comments": "Updated DB Password",
     "flowIdentifier": "ProcessorState",
     "link": {
-      "href": "buckets/078c2ec2-db39-4bc9-9652-6f1b0f7eadd9/flows/afd3e5d4-72bb-4a6e-a35d-536048c464c0/versions/3",
+      "href": "buckets/078c2ec2-db39-4bc9-9652-6f1b0f7eadd9/flows/afd3e5d4-72bb-4a6e-a35d-536048c464c0/versions/4",
       "params": {
         "rel": "content"
       }
     },
-    "timestamp": 1776279094234,
-    "version": 3
+    "timestamp": 1776848146457,
+    "version": 4
   }
 }
