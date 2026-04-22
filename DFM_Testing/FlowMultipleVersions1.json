@@ -47,16 +47,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+          "groupId": "1b2b174b-f90e-31b1-9219-417c3b45438b",
           "id": "94ae0c55-ab87-3217-b706-20bea055ec7f",
-          "instanceIdentifier": "d9f93cc3-a394-1106-175a-6cd2b0418cf4",
+          "instanceIdentifier": "e363e37a-6f1f-373e-9614-044e7de6278d",
           "name": "LogAttribute",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+        "groupIdentifier": "1b2b174b-f90e-31b1-9219-417c3b45438b",
         "identifier": "c4213581-4cbf-399b-961d-5080b7246595",
-        "instanceIdentifier": "d9f93cc4-a394-1106-6a97-895830bf554d",
+        "instanceIdentifier": "e80abf52-020d-3173-db97-712c6a3e837b",
         "labelIndex": 1,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -68,9 +68,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+          "groupId": "1b2b174b-f90e-31b1-9219-417c3b45438b",
           "id": "d0938965-0407-3d80-9a09-c69be858db75",
-          "instanceIdentifier": "d9f93cb9-a394-1106-eb90-9448e33d0ca6",
+          "instanceIdentifier": "4b0201a7-93ba-3129-b8c8-4bcff4046eaf",
           "name": "ConvertRecord",
           "type": "PROCESSOR"
         },
@@ -83,16 +83,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+          "groupId": "1b2b174b-f90e-31b1-9219-417c3b45438b",
           "id": "912c2e69-fc51-30dd-b183-6b428b4216c7",
-          "instanceIdentifier": "2d91d426-3ebd-3e06-36f3-5defe846ec15",
+          "instanceIdentifier": "87dd0d73-ffed-3ec7-ff6f-56ff740c1f6e",
           "name": "Funnel",
           "type": "FUNNEL"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+        "groupIdentifier": "1b2b174b-f90e-31b1-9219-417c3b45438b",
         "identifier": "294701b5-80aa-3584-9039-38906937af45",
-        "instanceIdentifier": "881e6dce-db43-3391-fb9e-47a40b9d8925",
+        "instanceIdentifier": "9e8de38f-c062-3ce1-e783-ac93926bc58e",
         "labelIndex": 1,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -104,9 +104,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+          "groupId": "1b2b174b-f90e-31b1-9219-417c3b45438b",
           "id": "d0938965-0407-3d80-9a09-c69be858db75",
-          "instanceIdentifier": "d9f93cb9-a394-1106-eb90-9448e33d0ca6",
+          "instanceIdentifier": "4b0201a7-93ba-3129-b8c8-4bcff4046eaf",
           "name": "ConvertRecord",
           "type": "PROCESSOR"
         },
@@ -119,16 +119,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+          "groupId": "1b2b174b-f90e-31b1-9219-417c3b45438b",
           "id": "f5edac16-9bb7-33ab-8661-67617b4a2431",
-          "instanceIdentifier": "d9f93cbb-a394-1106-0470-d762809e3090",
+          "instanceIdentifier": "7701eee2-ba76-38dd-1543-ca7e3ae1505b",
           "name": "LogAttribute",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+        "groupIdentifier": "1b2b174b-f90e-31b1-9219-417c3b45438b",
         "identifier": "7318a46a-ac45-3a62-ba55-17b09b12e9f6",
-        "instanceIdentifier": "eae3f5dc-1785-3b3a-b160-b03943bc0d19",
+        "instanceIdentifier": "31598d78-9ada-3f11-c844-7ba62b61257c",
         "labelIndex": 1,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -140,9 +140,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+          "groupId": "1b2b174b-f90e-31b1-9219-417c3b45438b",
           "id": "5841e277-40ca-34a2-9df0-1877d28ab5ac",
-          "instanceIdentifier": "27305314-f099-3b2b-83f2-9505e334dd13",
+          "instanceIdentifier": "fe82f1c3-cb38-39b3-1d85-73ab839713de",
           "name": "GenerateFlowFile",
           "type": "PROCESSOR"
         },
@@ -155,16 +155,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+          "groupId": "1b2b174b-f90e-31b1-9219-417c3b45438b",
           "id": "d0938965-0407-3d80-9a09-c69be858db75",
-          "instanceIdentifier": "d9f93cb9-a394-1106-eb90-9448e33d0ca6",
+          "instanceIdentifier": "4b0201a7-93ba-3129-b8c8-4bcff4046eaf",
           "name": "ConvertRecord",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+        "groupIdentifier": "1b2b174b-f90e-31b1-9219-417c3b45438b",
         "identifier": "fb757b90-a413-3057-8de7-33b0dc21f854",
-        "instanceIdentifier": "d9f93cba-a394-1106-7b25-7e0f60c2eb15",
+        "instanceIdentifier": "dc9dc5bc-2978-36ea-9fca-393d057aa083",
         "labelIndex": 1,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -176,9 +176,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+          "groupId": "1b2b174b-f90e-31b1-9219-417c3b45438b",
           "id": "569bb4d0-451f-3c75-a4aa-fb709e0b27d2",
-          "instanceIdentifier": "d9f93cb8-a394-1106-efed-b842f90b0caa",
+          "instanceIdentifier": "54bb7e3c-11a8-3deb-ac3f-831f4b65d75b",
           "name": "GenerateFlowFile",
           "type": "PROCESSOR"
         },
@@ -191,16 +191,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+          "groupId": "1b2b174b-f90e-31b1-9219-417c3b45438b",
           "id": "f5edac16-9bb7-33ab-8661-67617b4a2431",
-          "instanceIdentifier": "d9f93cbb-a394-1106-0470-d762809e3090",
+          "instanceIdentifier": "7701eee2-ba76-38dd-1543-ca7e3ae1505b",
           "name": "LogAttribute",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+        "groupIdentifier": "1b2b174b-f90e-31b1-9219-417c3b45438b",
         "identifier": "5a254018-da9d-31af-9e9f-92f7901f814c",
-        "instanceIdentifier": "d9f93cc2-a394-1106-47da-d490db697200",
+        "instanceIdentifier": "6092b85e-6233-3d67-f091-88dc73b704c1",
         "labelIndex": 1,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -212,9 +212,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+          "groupId": "1b2b174b-f90e-31b1-9219-417c3b45438b",
           "id": "d0938965-0407-3d80-9a09-c69be858db75",
-          "instanceIdentifier": "d9f93cb9-a394-1106-eb90-9448e33d0ca6",
+          "instanceIdentifier": "4b0201a7-93ba-3129-b8c8-4bcff4046eaf",
           "name": "ConvertRecord",
           "type": "PROCESSOR"
         },
@@ -227,7 +227,7 @@
         "bundle": {
           "artifact": "nifi-record-serialization-services-nar",
           "group": "org.apache.nifi",
-          "version": "1.28.0"
+          "version": "2.0.0"
         },
         "comments": "",
         "componentType": "CONTROLLER_SERVICE",
@@ -236,14 +236,14 @@
             "bundle": {
               "artifact": "nifi-standard-services-api-nar",
               "group": "org.apache.nifi",
-              "version": "1.28.0"
+              "version": "2.0.0"
             },
             "type": "org.apache.nifi.serialization.RecordSetWriterFactory"
           }
         ],
-        "groupIdentifier": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+        "groupIdentifier": "1b2b174b-f90e-31b1-9219-417c3b45438b",
         "identifier": "db4785e6-6ec6-3e9d-9eb1-a5eaca5803fd",
-        "instanceIdentifier": "d9f93cbe-a394-1106-20aa-06b3a388f4d7",
+        "instanceIdentifier": "508f4e6e-1ebc-31de-b142-8cb4cd0804c6",
         "name": "JsonRecordSetWriter",
         "properties": {
           "Allow Scientific Notation": "false",
@@ -255,10 +255,15 @@
           "output-grouping": "output-array",
           "schema-name": "${schema.name}",
           "schema-access-strategy": "inherit-record-schema",
-          "schema-protocol-version": "1",
           "schema-text": "${avro.schema}"
         },
         "propertyDescriptors": {
+          "schema-reference-reader": {
+            "displayName": "Schema Reference Reader",
+            "identifiesControllerService": true,
+            "name": "schema-reference-reader",
+            "sensitive": false
+          },
           "schema-branch": {
             "displayName": "Schema Branch",
             "identifiesControllerService": false,
@@ -349,12 +354,6 @@
             "name": "schema-access-strategy",
             "sensitive": false
           },
-          "schema-protocol-version": {
-            "displayName": "Schema Protocol Version",
-            "identifiesControllerService": false,
-            "name": "schema-protocol-version",
-            "sensitive": false
-          },
           "schema-version": {
             "displayName": "Schema Version",
             "identifiesControllerService": false,
@@ -366,6 +365,12 @@
             "identifiesControllerService": false,
             "name": "schema-text",
             "sensitive": false
+          },
+          "Schema Reference Writer": {
+            "displayName": "Schema Reference Writer",
+            "identifiesControllerService": true,
+            "name": "Schema Reference Writer",
+            "sensitive": false
           }
         },
         "scheduledState": "DISABLED",
@@ -376,7 +381,7 @@
         "bundle": {
           "artifact": "nifi-record-serialization-services-nar",
           "group": "org.apache.nifi",
-          "version": "1.28.0"
+          "version": "2.0.0"
         },
         "comments": "",
         "componentType": "CONTROLLER_SERVICE",
@@ -385,14 +390,14 @@
             "bundle": {
               "artifact": "nifi-standard-services-api-nar",
               "group": "org.apache.nifi",
-              "version": "1.28.0"
+              "version": "2.0.0"
             },
             "type": "org.apache.nifi.serialization.RecordReaderFactory"
           }
         ],
-        "groupIdentifier": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+        "groupIdentifier": "1b2b174b-f90e-31b1-9219-417c3b45438b",
         "identifier": "bd41c65a-0c79-3f5f-b58e-80edac34951e",
-        "instanceIdentifier": "d9f93cbd-a394-1106-e947-5807f53b8658",
+        "instanceIdentifier": "32575054-fc39-3460-843c-1563b6009fa5",
         "name": "JsonTreeReader",
         "properties": {
           "Max String Length": "20 MB",
@@ -404,6 +409,12 @@
           "Allow Comments": "false"
         },
         "propertyDescriptors": {
+          "schema-reference-reader": {
+            "displayName": "Schema Reference Reader",
+            "identifiesControllerService": true,
+            "name": "schema-reference-reader",
+            "sensitive": false
+          },
           "schema-branch": {
             "displayName": "Schema Branch",
             "identifiesControllerService": false,
@@ -507,25 +518,25 @@
     "funnels": [
       {
         "componentType": "FUNNEL",
-        "groupIdentifier": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+        "groupIdentifier": "1b2b174b-f90e-31b1-9219-417c3b45438b",
         "identifier": "912c2e69-fc51-30dd-b183-6b428b4216c7",
-        "instanceIdentifier": "2d91d426-3ebd-3e06-36f3-5defe846ec15",
+        "instanceIdentifier": "87dd0d73-ffed-3ec7-ff6f-56ff740c1f6e",
         "position": {
           "x": 874.9999951218856,
           "y": 205.9999969351844
         }
       }
     ],
-    "identifier": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+    "identifier": "1b2b174b-f90e-31b1-9219-417c3b45438b",
     "inputPorts": [],
-    "instanceIdentifier": "d9f93cb7-a394-1106-23ab-00388167c3ac",
+    "instanceIdentifier": "a97520b6-019d-1000-5a49-5a19086dedf4",
     "labels": [],
     "logFileSuffix": "",
     "name": "FlowMultipleVersions",
     "outputPorts": [],
     "position": {
-      "x": 776,
-      "y": 1360
+      "x": 749.9264831542969,
+      "y": 3.075042724609375
     },
     "processGroups": [],
     "processors": [
@@ -538,15 +549,15 @@
         "bundle": {
           "artifact": "nifi-standard-nar",
           "group": "org.apache.nifi",
-          "version": "1.28.0"
+          "version": "2.0.0"
         },
         "comments": "",
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+        "groupIdentifier": "1b2b174b-f90e-31b1-9219-417c3b45438b",
         "identifier": "94ae0c55-ab87-3217-b706-20bea055ec7f",
-        "instanceIdentifier": "d9f93cc3-a394-1106-175a-6cd2b0418cf4",
+        "instanceIdentifier": "e363e37a-6f1f-373e-9614-044e7de6278d",
         "maxBackoffPeriod": "10 mins",
         "name": "LogAttribute",
         "penaltyDuration": "30 sec",
@@ -641,15 +652,15 @@
         "bundle": {
           "artifact": "nifi-standard-nar",
           "group": "org.apache.nifi",
-          "version": "1.28.0"
+          "version": "2.0.0"
         },
         "comments": "",
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+        "groupIdentifier": "1b2b174b-f90e-31b1-9219-417c3b45438b",
         "identifier": "5841e277-40ca-34a2-9df0-1877d28ab5ac",
-        "instanceIdentifier": "27305314-f099-3b2b-83f2-9505e334dd13",
+        "instanceIdentifier": "fe82f1c3-cb38-39b3-1d85-73ab839713de",
         "maxBackoffPeriod": "10 mins",
         "name": "GenerateFlowFile",
         "penaltyDuration": "30 sec",
@@ -726,15 +737,15 @@
         "bundle": {
           "artifact": "nifi-standard-nar",
           "group": "org.apache.nifi",
-          "version": "1.28.0"
+          "version": "2.0.0"
         },
         "comments": "",
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+        "groupIdentifier": "1b2b174b-f90e-31b1-9219-417c3b45438b",
         "identifier": "d0938965-0407-3d80-9a09-c69be858db75",
-        "instanceIdentifier": "d9f93cb9-a394-1106-eb90-9448e33d0ca6",
+        "instanceIdentifier": "4b0201a7-93ba-3129-b8c8-4bcff4046eaf",
         "maxBackoffPeriod": "10 mins",
         "name": "ConvertRecord",
         "penaltyDuration": "30 sec",
@@ -743,27 +754,27 @@
           "y": 344
         },
         "properties": {
-          "record-writer": "db4785e6-6ec6-3e9d-9eb1-a5eaca5803fd",
-          "record-reader": "bd41c65a-0c79-3f5f-b58e-80edac34951e",
-          "include-zero-record-flowfiles": "true"
+          "Include Zero Record FlowFiles": "true",
+          "Record Writer": "db4785e6-6ec6-3e9d-9eb1-a5eaca5803fd",
+          "Record Reader": "bd41c65a-0c79-3f5f-b58e-80edac34951e"
         },
         "propertyDescriptors": {
-          "record-writer": {
-            "displayName": "Record Writer",
-            "identifiesControllerService": true,
-            "name": "record-writer",
-            "sensitive": false
-          },
-          "record-reader": {
-            "displayName": "Record Reader",
-            "identifiesControllerService": true,
-            "name": "record-reader",
-            "sensitive": false
-          },
-          "include-zero-record-flowfiles": {
+          "Include Zero Record FlowFiles": {
             "displayName": "Include Zero Record FlowFiles",
             "identifiesControllerService": false,
-            "name": "include-zero-record-flowfiles",
+            "name": "Include Zero Record FlowFiles",
+            "sensitive": false
+          },
+          "Record Writer": {
+            "displayName": "Record Writer",
+            "identifiesControllerService": true,
+            "name": "Record Writer",
+            "sensitive": false
+          },
+          "Record Reader": {
+            "displayName": "Record Reader",
+            "identifiesControllerService": true,
+            "name": "Record Reader",
             "sensitive": false
           }
         },
@@ -786,15 +797,15 @@
         "bundle": {
           "artifact": "nifi-standard-nar",
           "group": "org.apache.nifi",
-          "version": "1.28.0"
+          "version": "2.0.0"
         },
         "comments": "",
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+        "groupIdentifier": "1b2b174b-f90e-31b1-9219-417c3b45438b",
         "identifier": "f5edac16-9bb7-33ab-8661-67617b4a2431",
-        "instanceIdentifier": "d9f93cbb-a394-1106-0470-d762809e3090",
+        "instanceIdentifier": "7701eee2-ba76-38dd-1543-ca7e3ae1505b",
         "maxBackoffPeriod": "10 mins",
         "name": "LogAttribute",
         "penaltyDuration": "30 sec",
@@ -889,15 +900,15 @@
         "bundle": {
           "artifact": "nifi-standard-nar",
           "group": "org.apache.nifi",
-          "version": "1.28.0"
+          "version": "2.0.0"
         },
         "comments": "",
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "6539172a-3a31-3f13-b722-c5927cd7ec71",
+        "groupIdentifier": "1b2b174b-f90e-31b1-9219-417c3b45438b",
         "identifier": "569bb4d0-451f-3c75-a4aa-fb709e0b27d2",
-        "instanceIdentifier": "d9f93cb8-a394-1106-efed-b842f90b0caa",
+        "instanceIdentifier": "54bb7e3c-11a8-3deb-ac3f-831f4b65d75b",
         "maxBackoffPeriod": "10 mins",
         "name": "GenerateFlowFile",
         "penaltyDuration": "30 sec",
@@ -977,15 +988,15 @@
   "snapshotMetadata": {
     "author": "anonymous",
     "bucketIdentifier": "DFM_Testing",
-    "comments": "Version5",
+    "comments": "FlowMultipleVersion\n",
     "flowIdentifier": "FlowMultipleVersions1",
     "link": {
-      "href": "buckets/033d219e-9ef9-4b36-bc0d-6777188fba78/flows/4902ed61-32ec-4fce-a0de-8a25a0afb633/versions/5",
+      "href": "buckets/033d219e-9ef9-4b36-bc0d-6777188fba78/flows/4902ed61-32ec-4fce-a0de-8a25a0afb633/versions/6",
       "params": {
         "rel": "content"
       }
     },
-    "timestamp": 1760429580928,
-    "version": 5
+    "timestamp": 1776664583420,
+    "version": 6
   }
 }
