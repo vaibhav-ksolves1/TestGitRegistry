@@ -1,0 +1,145 @@
+{
+  "bucket": {
+    "allowBundleRedeploy": false,
+    "allowPublicRead": true,
+    "createdTimestamp": 1762930040804,
+    "description": "contains AI generated flows",
+    "identifier": "AI_Generated_Flows",
+    "link": {
+      "href": "buckets/9fd9b772-1140-4ca9-9cf7-6433901fd6ea",
+      "params": {
+        "rel": "self"
+      }
+    },
+    "name": "AI_Generated_Flows",
+    "permissions": {
+      "canDelete": true,
+      "canRead": true,
+      "canWrite": true
+    }
+  },
+  "externalControllerServices": {},
+  "flow": {
+    "bucketIdentifier": "9fd9b772-1140-4ca9-9cf7-6433901fd6ea",
+    "bucketName": "AI_Generated_Flows",
+    "createdTimestamp": 1772700115328,
+    "description": "",
+    "identifier": "nifi-sample",
+    "link": {
+      "href": "buckets/9fd9b772-1140-4ca9-9cf7-6433901fd6ea/flows/ddf82b3f-c093-4c39-98a4-f819ae5ea893",
+      "params": {
+        "rel": "self"
+      }
+    },
+    "modifiedTimestamp": 1772700115598,
+    "name": "nifi-sample",
+    "type": "Flow",
+    "versionCount": 1
+  },
+  "flowContents": {
+    "comments": "",
+    "componentType": "PROCESS_GROUP",
+    "connections": [],
+    "controllerServices": [],
+    "defaultBackPressureDataSizeThreshold": "1 GB",
+    "defaultBackPressureObjectThreshold": 10000,
+    "defaultFlowFileExpiration": "0 sec",
+    "flowFileConcurrency": "UNBOUNDED",
+    "flowFileOutboundPolicy": "STREAM_WHEN_AVAILABLE",
+    "funnels": [],
+    "identifier": "8061569e-5219-3a1d-8d0a-a05bbc0ceca9",
+    "inputPorts": [],
+    "instanceIdentifier": "bd28fcca-019c-1000-ffff-ffffccd136f5",
+    "labels": [],
+    "name": "nifi-sample",
+    "outputPorts": [],
+    "parameterContextName": "DBCP",
+    "position": {
+      "x": 512.7813885036052,
+      "y": -1045.0096088264397
+    },
+    "processGroups": [],
+    "processors": [],
+    "remoteProcessGroups": [],
+    "variables": {}
+  },
+  "flowEncodingVersion": "1.0",
+  "parameterContexts": {
+    "DBCP": {
+      "componentType": "PARAMETER_CONTEXT",
+      "inheritedParameterContexts": [],
+      "name": "DBCP",
+      "parameters": [
+        {
+          "description": "",
+          "name": "password",
+          "provided": false,
+          "sensitive": true
+        },
+        {
+          "description": "",
+          "name": "classname",
+          "provided": false,
+          "sensitive": false,
+          "value": "org.postgresql.Drivers"
+        },
+        {
+          "description": "",
+          "name": "sftp_pass",
+          "provided": false,
+          "sensitive": true
+        },
+        {
+          "description": "",
+          "name": "password_sftp",
+          "provided": false,
+          "sensitive": false,
+          "value": "sftp_pass"
+        },
+        {
+          "description": "",
+          "name": "location",
+          "provided": false,
+          "sensitive": false,
+          "value": "/home/vaibhavks858/Downloads/postgresql-42.7.5.jar"
+        },
+        {
+          "description": "",
+          "name": "user",
+          "provided": false,
+          "sensitive": false,
+          "value": "postgres"
+        },
+        {
+          "description": "",
+          "name": "dbcpid",
+          "provided": false,
+          "sensitive": false,
+          "value": "1234"
+        },
+        {
+          "description": "",
+          "name": "url",
+          "provided": false,
+          "sensitive": false,
+          "value": "jdbc:postgresql://localhost:5432/postgres"
+        }
+      ]
+    }
+  },
+  "parameterProviders": {},
+  "snapshotMetadata": {
+    "author": "anonymous",
+    "bucketIdentifier": "AI_Generated_Flows",
+    "comments": "",
+    "flowIdentifier": "nifi-sample",
+    "link": {
+      "href": "buckets/9fd9b772-1140-4ca9-9cf7-6433901fd6ea/flows/ddf82b3f-c093-4c39-98a4-f819ae5ea893/versions/1",
+      "params": {
+        "rel": "content"
+      }
+    },
+    "timestamp": 1772700115484,
+    "version": 1
+  }
+}
