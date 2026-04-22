@@ -47,16 +47,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedbf-0196-1000-4c70-ee03516fd020",
-          "instanceIdentifier": "1872cee2-12ab-3c1e-dff8-441fa4335f46",
+          "instanceIdentifier": "9e307a68-3793-3de7-3684-cd1526908711",
           "name": "Funnel",
           "type": "FUNNEL"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedd8-0196-1000-d4c9-6fbe4b0d1801",
-        "instanceIdentifier": "fcd11125-d8cc-332f-6215-2f0b4f071d30",
+        "instanceIdentifier": "ab16a697-d786-3c24-88bd-a3ca4494e4e4",
         "labelIndex": 0,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -68,9 +68,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedbb-0196-1000-ed95-b86fed92654b",
-          "instanceIdentifier": "5dfb2f15-1edd-303d-c378-09c6ba9ce56e",
+          "instanceIdentifier": "8c6fbe93-a346-3404-6408-2d8558289828",
           "name": "Routes FlowFiles",
           "type": "PROCESSOR"
         },
@@ -83,16 +83,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedb9-0196-1000-d5af-4fec2cf7a56b",
-          "instanceIdentifier": "6d104672-3458-36e9-e340-ff68ca22e825",
+          "instanceIdentifier": "b18cba34-7569-3651-e0e6-8570ff0beeb9",
           "name": "CsvToAvroConverter",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedce-0196-1000-349f-ceef5671d7dd",
-        "instanceIdentifier": "3e22794a-2bb1-3960-3e87-2a884be53b49",
+        "instanceIdentifier": "2dfc7114-b13a-3c8c-5162-eb76bb2843aa",
         "labelIndex": 0,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -104,9 +104,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedbb-0196-1000-ed95-b86fed92654b",
-          "instanceIdentifier": "5dfb2f15-1edd-303d-c378-09c6ba9ce56e",
+          "instanceIdentifier": "8c6fbe93-a346-3404-6408-2d8558289828",
           "name": "Routes FlowFiles",
           "type": "PROCESSOR"
         },
@@ -119,16 +119,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedbb-0196-1000-ed95-b86fed92654b",
-          "instanceIdentifier": "5dfb2f15-1edd-303d-c378-09c6ba9ce56e",
+          "instanceIdentifier": "8c6fbe93-a346-3404-6408-2d8558289828",
           "name": "Routes FlowFiles",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedd2-0196-1000-7ce2-838dad09cca7",
-        "instanceIdentifier": "b18bab56-18d8-39f0-06fc-0f96ab0c75af",
+        "instanceIdentifier": "b8a2ad81-b3f5-323b-42bf-c3fddef45e77",
         "labelIndex": 0,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -140,9 +140,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedbe-0196-1000-75a0-c77f587ded0f",
-          "instanceIdentifier": "d19260a5-3120-3f8e-8166-dfbff5193e09",
+          "instanceIdentifier": "b96af813-fc02-333a-07db-bc31e2e19281",
           "name": "Fetching Actual Content",
           "type": "PROCESSOR"
         },
@@ -155,16 +155,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a4ace0b2-0196-1000-a354-80bcbb524f0f",
-          "instanceIdentifier": "b62d3bb0-f224-3dea-92ac-6504e5e70566",
+          "instanceIdentifier": "1b1991e3-604f-39dd-86c2-0c3bc6abbf1f",
           "name": "WriteRecordToDestination",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedd3-0196-1000-e1b1-120d522e5907",
-        "instanceIdentifier": "aeb83b43-8f4d-33a5-5f7b-dacca75ad157",
+        "instanceIdentifier": "f375f1be-9ef6-31ec-0d83-8f44f80f20b2",
         "labelIndex": 0,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -176,9 +176,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedb9-0196-1000-d5af-4fec2cf7a56b",
-          "instanceIdentifier": "6d104672-3458-36e9-e340-ff68ca22e825",
+          "instanceIdentifier": "b18cba34-7569-3651-e0e6-8570ff0beeb9",
           "name": "CsvToAvroConverter",
           "type": "PROCESSOR"
         },
@@ -191,16 +191,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedc1-0196-1000-29c2-389d75909424",
-          "instanceIdentifier": "b087253d-5f2e-3343-9641-502f0324f07f",
+          "instanceIdentifier": "23ee9ab9-65f5-3c20-ad0a-e49383fc025c",
           "name": "Funnel",
           "type": "FUNNEL"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "65dcd728-632b-34be-b3e4-980b69bf710c",
-        "instanceIdentifier": "9dd3a226-89da-35ac-1af8-5c51358493d0",
+        "instanceIdentifier": "a3382534-3371-3b49-fb13-c9f78a67f974",
         "labelIndex": 0,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -212,46 +212,10 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedb9-0196-1000-d5af-4fec2cf7a56b",
-          "instanceIdentifier": "6d104672-3458-36e9-e340-ff68ca22e825",
+          "instanceIdentifier": "b18cba34-7569-3651-e0e6-8570ff0beeb9",
           "name": "CsvToAvroConverter",
-          "type": "PROCESSOR"
-        },
-        "zIndex": 0
-      },
-      {
-        "backPressureDataSizeThreshold": "1 GB",
-        "backPressureObjectThreshold": 10000,
-        "bends": [],
-        "componentType": "CONNECTION",
-        "destination": {
-          "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
-          "id": "a4ace0b2-0196-1000-a354-80bcbb524f0f",
-          "instanceIdentifier": "b62d3bb0-f224-3dea-92ac-6504e5e70566",
-          "name": "WriteRecordToDestination",
-          "type": "PROCESSOR"
-        },
-        "flowFileExpiration": "0 sec",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
-        "identifier": "050618f4-5575-3a38-97fc-16242ab7f80d",
-        "instanceIdentifier": "9cbc16f6-0f77-3cbd-8a4a-07ec48aa20ec",
-        "labelIndex": 0,
-        "loadBalanceCompression": "DO_NOT_COMPRESS",
-        "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
-        "name": "",
-        "partitioningAttribute": "",
-        "prioritizers": [],
-        "selectedRelationships": [
-          "IsAvro"
-        ],
-        "source": {
-          "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
-          "id": "a49fedbb-0196-1000-ed95-b86fed92654b",
-          "instanceIdentifier": "5dfb2f15-1edd-303d-c378-09c6ba9ce56e",
-          "name": "Routes FlowFiles",
           "type": "PROCESSOR"
         },
         "zIndex": 0
@@ -276,16 +240,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a4ace0b2-0196-1000-a354-80bcbb524f0f",
-          "instanceIdentifier": "b62d3bb0-f224-3dea-92ac-6504e5e70566",
+          "instanceIdentifier": "1b1991e3-604f-39dd-86c2-0c3bc6abbf1f",
           "name": "WriteRecordToDestination",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "00aa72c0-35b7-3acd-936a-375cff7bd5ff",
-        "instanceIdentifier": "a0732cec-c252-34d4-40f7-5d7eb5e28f74",
+        "instanceIdentifier": "814390dd-d239-3a9e-8ceb-39dd9269e768",
         "labelIndex": 1,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -297,9 +261,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedb7-0196-1000-5cb9-2a440827d293",
-          "instanceIdentifier": "8050845d-cc8d-3b6c-5f56-fe3d2a9418f8",
+          "instanceIdentifier": "cf48af88-01bc-3a31-8376-5b96c6ea44c8",
           "name": "JsonToAvroConverter",
           "type": "PROCESSOR"
         },
@@ -312,16 +276,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedbe-0196-1000-75a0-c77f587ded0f",
-          "instanceIdentifier": "d19260a5-3120-3f8e-8166-dfbff5193e09",
+          "instanceIdentifier": "b96af813-fc02-333a-07db-bc31e2e19281",
           "name": "Fetching Actual Content",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedd1-0196-1000-5802-74c9dfceb4e7",
-        "instanceIdentifier": "b7e610c8-cd3a-3b27-cb39-d1224699de24",
+        "instanceIdentifier": "f43259a5-debf-3a12-dbef-d4fa434d573f",
         "labelIndex": 0,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -333,9 +297,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedb6-0196-1000-82e5-0a8985fc85f0",
-          "instanceIdentifier": "dfcfa273-7c2e-36a0-e739-3707595aa1a8",
+          "instanceIdentifier": "837b0c43-69f7-39b9-db8f-2b54aadf69a8",
           "name": "SourceBucketScanner",
           "type": "PROCESSOR"
         },
@@ -348,16 +312,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "10c7cf8a-bfb0-3948-b390-0924f566a774",
-          "instanceIdentifier": "13b145b4-103f-3919-1f43-654d79e919ae",
+          "instanceIdentifier": "a93d22b5-6788-389b-bff2-55ae28ace64d",
           "name": "LogAttribute",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "0b69fba9-3929-3516-a12e-9fb5b65e68a2",
-        "instanceIdentifier": "0b3b5f56-17f7-3362-50f9-062c6cd3f493",
+        "instanceIdentifier": "de2bc3bb-ba8f-3dca-4e91-b22c25d94a20",
         "labelIndex": 0,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -370,9 +334,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a4ace0b2-0196-1000-a354-80bcbb524f0f",
-          "instanceIdentifier": "b62d3bb0-f224-3dea-92ac-6504e5e70566",
+          "instanceIdentifier": "1b1991e3-604f-39dd-86c2-0c3bc6abbf1f",
           "name": "WriteRecordToDestination",
           "type": "PROCESSOR"
         },
@@ -394,16 +358,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedb7-0196-1000-5cb9-2a440827d293",
-          "instanceIdentifier": "8050845d-cc8d-3b6c-5f56-fe3d2a9418f8",
+          "instanceIdentifier": "cf48af88-01bc-3a31-8376-5b96c6ea44c8",
           "name": "JsonToAvroConverter",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedd5-0196-1000-5d29-728f991fea64",
-        "instanceIdentifier": "2437b71d-d334-32ee-de44-585a080c4af9",
+        "instanceIdentifier": "caa10ee9-fbd9-3d48-b3d7-282045dcc3e6",
         "labelIndex": 1,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -415,9 +379,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedbb-0196-1000-ed95-b86fed92654b",
-          "instanceIdentifier": "5dfb2f15-1edd-303d-c378-09c6ba9ce56e",
+          "instanceIdentifier": "8c6fbe93-a346-3404-6408-2d8558289828",
           "name": "Routes FlowFiles",
           "type": "PROCESSOR"
         },
@@ -430,16 +394,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedba-0196-1000-9cfb-fe4706f09f5d",
-          "instanceIdentifier": "863af9b2-7b36-31ca-eaa5-028bc7130bca",
+          "instanceIdentifier": "17689ead-a283-30bb-5221-0be683f8398f",
           "name": "LogAttribute",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedd7-0196-1000-7236-02d7c903d1e4",
-        "instanceIdentifier": "573cc76f-f2f1-321c-582e-eb5c98f5467a",
+        "instanceIdentifier": "278a0f90-afeb-321b-04a2-f70282576103",
         "labelIndex": 0,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -451,9 +415,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedbe-0196-1000-75a0-c77f587ded0f",
-          "instanceIdentifier": "d19260a5-3120-3f8e-8166-dfbff5193e09",
+          "instanceIdentifier": "b96af813-fc02-333a-07db-bc31e2e19281",
           "name": "Fetching Actual Content",
           "type": "PROCESSOR"
         },
@@ -466,16 +430,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedc0-0196-1000-5e82-2f15a30209e1",
-          "instanceIdentifier": "ce9ba145-37fd-3be4-bfcc-52b80c0add24",
+          "instanceIdentifier": "e53b4c09-b274-3fcf-db43-120659484907",
           "name": "Funnel",
           "type": "FUNNEL"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedd4-0196-1000-9f0f-e45f2f8eae71",
-        "instanceIdentifier": "b13e92d0-7b42-3f86-1369-8dcf8f52cbae",
+        "instanceIdentifier": "3d593e1c-0629-3127-b483-63f3621129e3",
         "labelIndex": 0,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -487,9 +451,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a49fedb7-0196-1000-5cb9-2a440827d293",
-          "instanceIdentifier": "8050845d-cc8d-3b6c-5f56-fe3d2a9418f8",
+          "instanceIdentifier": "cf48af88-01bc-3a31-8376-5b96c6ea44c8",
           "name": "JsonToAvroConverter",
           "type": "PROCESSOR"
         },
@@ -511,16 +475,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a4ace0b2-0196-1000-a354-80bcbb524f0f",
-          "instanceIdentifier": "b62d3bb0-f224-3dea-92ac-6504e5e70566",
+          "instanceIdentifier": "1b1991e3-604f-39dd-86c2-0c3bc6abbf1f",
           "name": "WriteRecordToDestination",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "2d7cafcb-0ed6-3ffd-a164-0fe5d31f588f",
-        "instanceIdentifier": "9c0bb933-d0dc-3757-b0da-ff4cacc5d2dc",
+        "instanceIdentifier": "361b91a2-2267-3c24-98f9-c4de1f1840d2",
         "labelIndex": 0,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -532,9 +496,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "1db32700-9285-325d-9bfe-a5360b9a6140",
+          "groupId": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
           "id": "a4ace0b2-0196-1000-a354-80bcbb524f0f",
-          "instanceIdentifier": "b62d3bb0-f224-3dea-92ac-6504e5e70566",
+          "instanceIdentifier": "1b1991e3-604f-39dd-86c2-0c3bc6abbf1f",
           "name": "WriteRecordToDestination",
           "type": "PROCESSOR"
         },
@@ -569,9 +533,9 @@
             "type": "org.apache.nifi.processors.aws.credentials.provider.service.AWSCredentialsProviderService"
           }
         ],
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedb0-0196-1000-0fb8-151bc0c58805",
-        "instanceIdentifier": "ca79607e-1c8e-3ec2-614d-11cf5ca734b7",
+        "instanceIdentifier": "f7f010ca-0efc-30ef-f050-f801bb505fba",
         "name": "AWSCredentialsProviderControllerService",
         "properties": {
           "Access Key": "#{AccessKeyID}",
@@ -727,9 +691,9 @@
             "type": "org.apache.nifi.serialization.RecordReaderFactory"
           }
         ],
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedb2-0196-1000-6c28-f82535d8c069",
-        "instanceIdentifier": "a237a7fb-56e7-35da-7046-a06da9ca420d",
+        "instanceIdentifier": "896ed374-c955-3836-4f49-526e199ec444",
         "name": "AvroReader",
         "properties": {
           "schema-name": "${schema.name}",
@@ -803,9 +767,9 @@
             "type": "org.apache.nifi.serialization.RecordSetWriterFactory"
           }
         ],
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedb3-0196-1000-9a51-cc9642385eb4",
-        "instanceIdentifier": "022195bf-e8fe-3ab0-9274-759d67a93759",
+        "instanceIdentifier": "da8b1241-a72e-359a-fc83-161a5d6b29de",
         "name": "AvroRecordSetWriter",
         "properties": {
           "compression-format": "NONE",
@@ -897,6 +861,165 @@
       {
         "bulletinLevel": "WARN",
         "bundle": {
+          "artifact": "nifi-dbcp-service-nar",
+          "group": "org.apache.nifi",
+          "version": "1.28.0"
+        },
+        "comments": "",
+        "componentType": "CONTROLLER_SERVICE",
+        "controllerServiceApis": [
+          {
+            "bundle": {
+              "artifact": "nifi-standard-services-api-nar",
+              "group": "org.apache.nifi",
+              "version": "1.28.0"
+            },
+            "type": "org.apache.nifi.dbcp.DBCPService"
+          }
+        ],
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
+        "identifier": "aa68ab0d-6960-39ab-85d2-40c6634151f6",
+        "instanceIdentifier": "d2ddb745-6adf-374a-d72b-536c84b9dcfb",
+        "name": "DBCPConnectionPool",
+        "properties": {
+          "dbcp-min-idle-conns": "0",
+          "Max Wait Time": "500 millis",
+          "Database Driver Class Name": "#{SqlDriverClassName}",
+          "dbcp-min-evictable-idle-time": "30 mins",
+          "Max Total Connections": "8",
+          "dbcp-max-conn-lifetime": "-1",
+          "Database Connection URL": "#{SqlConnectionUrl}",
+          "dbcp-time-between-eviction-runs": "-1",
+          "Database User": "#{SqlUserName}",
+          "dbcp-soft-min-evictable-idle-time": "-1",
+          "database-driver-locations": "#{SqlDriverLocation}",
+          "dbcp-max-idle-conns": "8",
+          "Password": "#{Sql-Password}"
+        },
+        "propertyDescriptors": {
+          "kerberos-password": {
+            "displayName": "Kerberos Password",
+            "identifiesControllerService": false,
+            "name": "kerberos-password",
+            "sensitive": true
+          },
+          "dbcp-min-idle-conns": {
+            "displayName": "Minimum Idle Connections",
+            "identifiesControllerService": false,
+            "name": "dbcp-min-idle-conns",
+            "sensitive": false
+          },
+          "Max Wait Time": {
+            "displayName": "Max Wait Time",
+            "identifiesControllerService": false,
+            "name": "Max Wait Time",
+            "sensitive": false
+          },
+          "Database Driver Class Name": {
+            "displayName": "Database Driver Class Name",
+            "identifiesControllerService": false,
+            "name": "Database Driver Class Name",
+            "sensitive": false
+          },
+          "dbcp-min-evictable-idle-time": {
+            "displayName": "Minimum Evictable Idle Time",
+            "identifiesControllerService": false,
+            "name": "dbcp-min-evictable-idle-time",
+            "sensitive": false
+          },
+          "kerberos-principal": {
+            "displayName": "Kerberos Principal",
+            "identifiesControllerService": false,
+            "name": "kerberos-principal",
+            "sensitive": false
+          },
+          "Max Total Connections": {
+            "displayName": "Max Total Connections",
+            "identifiesControllerService": false,
+            "name": "Max Total Connections",
+            "sensitive": false
+          },
+          "kerberos-credentials-service": {
+            "displayName": "Kerberos Credentials Service",
+            "identifiesControllerService": true,
+            "name": "kerberos-credentials-service",
+            "sensitive": false
+          },
+          "dbcp-max-conn-lifetime": {
+            "displayName": "Max Connection Lifetime",
+            "identifiesControllerService": false,
+            "name": "dbcp-max-conn-lifetime",
+            "sensitive": false
+          },
+          "Validation-query": {
+            "displayName": "Validation query",
+            "identifiesControllerService": false,
+            "name": "Validation-query",
+            "sensitive": false
+          },
+          "Database Connection URL": {
+            "displayName": "Database Connection URL",
+            "identifiesControllerService": false,
+            "name": "Database Connection URL",
+            "sensitive": false
+          },
+          "dbcp-time-between-eviction-runs": {
+            "displayName": "Time Between Eviction Runs",
+            "identifiesControllerService": false,
+            "name": "dbcp-time-between-eviction-runs",
+            "sensitive": false
+          },
+          "Database User": {
+            "displayName": "Database User",
+            "identifiesControllerService": false,
+            "name": "Database User",
+            "sensitive": false
+          },
+          "kerberos-user-service": {
+            "displayName": "Kerberos User Service",
+            "identifiesControllerService": true,
+            "name": "kerberos-user-service",
+            "sensitive": false
+          },
+          "dbcp-soft-min-evictable-idle-time": {
+            "displayName": "Soft Minimum Evictable Idle Time",
+            "identifiesControllerService": false,
+            "name": "dbcp-soft-min-evictable-idle-time",
+            "sensitive": false
+          },
+          "database-driver-locations": {
+            "displayName": "Database Driver Location(s)",
+            "identifiesControllerService": false,
+            "name": "database-driver-locations",
+            "resourceDefinition": {
+              "cardinality": "MULTIPLE",
+              "resourceTypes": [
+                "DIRECTORY",
+                "URL",
+                "FILE"
+              ]
+            },
+            "sensitive": false
+          },
+          "dbcp-max-idle-conns": {
+            "displayName": "Max Idle Connections",
+            "identifiesControllerService": false,
+            "name": "dbcp-max-idle-conns",
+            "sensitive": false
+          },
+          "Password": {
+            "displayName": "Password",
+            "identifiesControllerService": false,
+            "name": "Password",
+            "sensitive": true
+          }
+        },
+        "scheduledState": "DISABLED",
+        "type": "org.apache.nifi.dbcp.DBCPConnectionPool"
+      },
+      {
+        "bulletinLevel": "WARN",
+        "bundle": {
           "artifact": "nifi-record-serialization-services-nar",
           "group": "org.apache.nifi",
           "version": "1.28.0"
@@ -913,9 +1036,9 @@
             "type": "org.apache.nifi.serialization.RecordReaderFactory"
           }
         ],
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedb1-0196-1000-6a02-2250d90aad6e",
-        "instanceIdentifier": "c843a6c9-9ac3-3242-d3b8-cb48c62dd736",
+        "instanceIdentifier": "78862ddf-f7c5-3d45-ac35-82b5098515bb",
         "name": "CSVReader",
         "properties": {
           "ignore-csv-header": "false",
@@ -1080,165 +1203,6 @@
       {
         "bulletinLevel": "WARN",
         "bundle": {
-          "artifact": "nifi-dbcp-service-nar",
-          "group": "org.apache.nifi",
-          "version": "1.28.0"
-        },
-        "comments": "",
-        "componentType": "CONTROLLER_SERVICE",
-        "controllerServiceApis": [
-          {
-            "bundle": {
-              "artifact": "nifi-standard-services-api-nar",
-              "group": "org.apache.nifi",
-              "version": "1.28.0"
-            },
-            "type": "org.apache.nifi.dbcp.DBCPService"
-          }
-        ],
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
-        "identifier": "aa68ab0d-6960-39ab-85d2-40c6634151f6",
-        "instanceIdentifier": "321677e9-3794-3086-3173-a8fc492cdf77",
-        "name": "DBCPConnectionPool",
-        "properties": {
-          "dbcp-min-idle-conns": "0",
-          "Max Wait Time": "500 millis",
-          "Database Driver Class Name": "#{SqlDriverClassName}",
-          "dbcp-min-evictable-idle-time": "30 mins",
-          "Max Total Connections": "8",
-          "dbcp-max-conn-lifetime": "-1",
-          "Database Connection URL": "#{SqlConnectionUrl}",
-          "dbcp-time-between-eviction-runs": "-1",
-          "Database User": "#{SqlUserName}",
-          "dbcp-soft-min-evictable-idle-time": "-1",
-          "database-driver-locations": "#{SqlDriverLocation}",
-          "dbcp-max-idle-conns": "8",
-          "Password": "#{Sql-Password}"
-        },
-        "propertyDescriptors": {
-          "kerberos-password": {
-            "displayName": "Kerberos Password",
-            "identifiesControllerService": false,
-            "name": "kerberos-password",
-            "sensitive": true
-          },
-          "dbcp-min-idle-conns": {
-            "displayName": "Minimum Idle Connections",
-            "identifiesControllerService": false,
-            "name": "dbcp-min-idle-conns",
-            "sensitive": false
-          },
-          "Max Wait Time": {
-            "displayName": "Max Wait Time",
-            "identifiesControllerService": false,
-            "name": "Max Wait Time",
-            "sensitive": false
-          },
-          "Database Driver Class Name": {
-            "displayName": "Database Driver Class Name",
-            "identifiesControllerService": false,
-            "name": "Database Driver Class Name",
-            "sensitive": false
-          },
-          "dbcp-min-evictable-idle-time": {
-            "displayName": "Minimum Evictable Idle Time",
-            "identifiesControllerService": false,
-            "name": "dbcp-min-evictable-idle-time",
-            "sensitive": false
-          },
-          "kerberos-principal": {
-            "displayName": "Kerberos Principal",
-            "identifiesControllerService": false,
-            "name": "kerberos-principal",
-            "sensitive": false
-          },
-          "Max Total Connections": {
-            "displayName": "Max Total Connections",
-            "identifiesControllerService": false,
-            "name": "Max Total Connections",
-            "sensitive": false
-          },
-          "kerberos-credentials-service": {
-            "displayName": "Kerberos Credentials Service",
-            "identifiesControllerService": true,
-            "name": "kerberos-credentials-service",
-            "sensitive": false
-          },
-          "dbcp-max-conn-lifetime": {
-            "displayName": "Max Connection Lifetime",
-            "identifiesControllerService": false,
-            "name": "dbcp-max-conn-lifetime",
-            "sensitive": false
-          },
-          "Validation-query": {
-            "displayName": "Validation query",
-            "identifiesControllerService": false,
-            "name": "Validation-query",
-            "sensitive": false
-          },
-          "Database Connection URL": {
-            "displayName": "Database Connection URL",
-            "identifiesControllerService": false,
-            "name": "Database Connection URL",
-            "sensitive": false
-          },
-          "dbcp-time-between-eviction-runs": {
-            "displayName": "Time Between Eviction Runs",
-            "identifiesControllerService": false,
-            "name": "dbcp-time-between-eviction-runs",
-            "sensitive": false
-          },
-          "Database User": {
-            "displayName": "Database User",
-            "identifiesControllerService": false,
-            "name": "Database User",
-            "sensitive": false
-          },
-          "kerberos-user-service": {
-            "displayName": "Kerberos User Service",
-            "identifiesControllerService": true,
-            "name": "kerberos-user-service",
-            "sensitive": false
-          },
-          "dbcp-soft-min-evictable-idle-time": {
-            "displayName": "Soft Minimum Evictable Idle Time",
-            "identifiesControllerService": false,
-            "name": "dbcp-soft-min-evictable-idle-time",
-            "sensitive": false
-          },
-          "database-driver-locations": {
-            "displayName": "Database Driver Location(s)",
-            "identifiesControllerService": false,
-            "name": "database-driver-locations",
-            "resourceDefinition": {
-              "cardinality": "MULTIPLE",
-              "resourceTypes": [
-                "DIRECTORY",
-                "URL",
-                "FILE"
-              ]
-            },
-            "sensitive": false
-          },
-          "dbcp-max-idle-conns": {
-            "displayName": "Max Idle Connections",
-            "identifiesControllerService": false,
-            "name": "dbcp-max-idle-conns",
-            "sensitive": false
-          },
-          "Password": {
-            "displayName": "Password",
-            "identifiesControllerService": false,
-            "name": "Password",
-            "sensitive": true
-          }
-        },
-        "scheduledState": "DISABLED",
-        "type": "org.apache.nifi.dbcp.DBCPConnectionPool"
-      },
-      {
-        "bulletinLevel": "WARN",
-        "bundle": {
           "artifact": "nifi-record-serialization-services-nar",
           "group": "org.apache.nifi",
           "version": "1.28.0"
@@ -1255,9 +1219,9 @@
             "type": "org.apache.nifi.serialization.RecordReaderFactory"
           }
         ],
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedaf-0196-1000-a6eb-96352ce0ae9f",
-        "instanceIdentifier": "20217eac-120d-3c6a-4d98-e2156dfadcd8",
+        "instanceIdentifier": "e6443733-59d3-3a25-050f-e15bc3531d8f",
         "name": "JsonTreeReader",
         "properties": {
           "Max String Length": "20 MB",
@@ -1382,9 +1346,9 @@
             "type": "org.apache.nifi.serialization.RecordSetWriterFactory"
           }
         ],
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "2e48a057-cf03-36bb-ac85-b46856c7e544",
-        "instanceIdentifier": "ea598ba1-019b-1000-d32a-448b5342c923",
+        "instanceIdentifier": "8125082a-6b09-3d60-df45-28a3e188255b",
         "name": "AvroRecordSetWriter",
         "properties": {
           "compression-format": "NONE",
@@ -1492,9 +1456,9 @@
             "type": "org.apache.nifi.serialization.RecordReaderFactory"
           }
         ],
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "b02fbae1-0e16-3d59-aeb6-e8fc6d798820",
-        "instanceIdentifier": "ea595907-019b-1000-1cdf-81402bdcbdfb",
+        "instanceIdentifier": "736651a3-b343-350f-e78f-90cf8f8497ea",
         "name": "CSVReader",
         "properties": {
           "ignore-csv-header": "false",
@@ -1665,9 +1629,9 @@
     "funnels": [
       {
         "componentType": "FUNNEL",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedc0-0196-1000-5e82-2f15a30209e1",
-        "instanceIdentifier": "ce9ba145-37fd-3be4-bfcc-52b80c0add24",
+        "instanceIdentifier": "e53b4c09-b274-3fcf-db43-120659484907",
         "position": {
           "x": -880,
           "y": -512
@@ -1675,9 +1639,9 @@
       },
       {
         "componentType": "FUNNEL",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedc1-0196-1000-29c2-389d75909424",
-        "instanceIdentifier": "b087253d-5f2e-3343-9641-502f0324f07f",
+        "instanceIdentifier": "23ee9ab9-65f5-3c20-ad0a-e49383fc025c",
         "position": {
           "x": -1944,
           "y": -328
@@ -1685,25 +1649,25 @@
       },
       {
         "componentType": "FUNNEL",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedbf-0196-1000-4c70-ee03516fd020",
-        "instanceIdentifier": "1872cee2-12ab-3c1e-dff8-441fa4335f46",
+        "instanceIdentifier": "9e307a68-3793-3de7-3684-cd1526908711",
         "position": {
           "x": -1944,
           "y": -1096
         }
       }
     ],
-    "identifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+    "identifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
     "inputPorts": [],
-    "instanceIdentifier": "e9d972dc-019b-1000-b4e4-a451006fd7e1",
+    "instanceIdentifier": "0f1d09be-019c-1000-5502-4293f113531c",
     "labels": [
       {
         "componentType": "LABEL",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "height": 80,
         "identifier": "d559e78e-97bb-34ae-beea-21785031b872",
-        "instanceIdentifier": "129c9ca4-cca6-36b8-7bb5-dbf6f75f191b",
+        "instanceIdentifier": "03217060-7cfd-3685-ee8c-04fa9ac05607",
         "label": "Routing the flowfiles for avro format conversion",
         "position": {
           "x": -1728,
@@ -1717,10 +1681,10 @@
       },
       {
         "componentType": "LABEL",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "height": 96,
         "identifier": "a49fedc3-0196-1000-8be1-8644db623c87",
-        "instanceIdentifier": "87922b7a-87b8-3453-76a6-3f29e86e2413",
+        "instanceIdentifier": "262c46aa-0f56-3b99-b17f-01224bdb1651",
         "label": "We need to use FetchS3Object because files listed by ListS3 processor will have \nonly attributes, not content.\nSo this processor downloads/fetches the content of file and \nplace inside it.",
         "position": {
           "x": -2968,
@@ -1734,10 +1698,10 @@
       },
       {
         "componentType": "LABEL",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "height": 96,
         "identifier": "a49fedc6-0196-1000-6ff7-21fc6c63669f",
-        "instanceIdentifier": "4565b850-d230-32fc-e5f6-148aac966866",
+        "instanceIdentifier": "9b5ee1e5-2778-30f6-9d92-646ce63e9070",
         "label": "This processor fetches the file that are present inside the specified bucket (source bucket).\nInside properties we need to define :\n-> bucket name \n-> AWS Credentials provider Service\n-> Endpoint URL",
         "position": {
           "x": -4216,
@@ -1751,10 +1715,10 @@
       },
       {
         "componentType": "LABEL",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "height": 56,
         "identifier": "af5ff0e9-78b9-3be6-b6dc-bf2699b39992",
-        "instanceIdentifier": "b7077f5b-9e2b-3d3c-b445-1d844ba5ba36",
+        "instanceIdentifier": "b643eab5-b324-307d-bda9-d2834ea7cf8a",
         "label": "Placing records in MySQL database table.",
         "position": {
           "x": -2944,
@@ -1771,8 +1735,8 @@
     "outputPorts": [],
     "parameterContextName": "S3 To MySQL",
     "position": {
-      "x": -1680,
-      "y": -8
+      "x": -442.82391260049724,
+      "y": 734.6785704375271
     },
     "processGroups": [],
     "processors": [
@@ -1791,9 +1755,9 @@
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedba-0196-1000-9cfb-fe4706f09f5d",
-        "instanceIdentifier": "863af9b2-7b36-31ca-eaa5-028bc7130bca",
+        "instanceIdentifier": "17689ead-a283-30bb-5221-0be683f8398f",
         "maxBackoffPeriod": "10 mins",
         "name": "LogAttribute",
         "penaltyDuration": "30 sec",
@@ -1894,9 +1858,9 @@
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedb7-0196-1000-5cb9-2a440827d293",
-        "instanceIdentifier": "8050845d-cc8d-3b6c-5f56-fe3d2a9418f8",
+        "instanceIdentifier": "cf48af88-01bc-3a31-8376-5b96c6ea44c8",
         "maxBackoffPeriod": "10 mins",
         "name": "JsonToAvroConverter",
         "penaltyDuration": "30 sec",
@@ -1952,9 +1916,9 @@
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedb9-0196-1000-d5af-4fec2cf7a56b",
-        "instanceIdentifier": "6d104672-3458-36e9-e340-ff68ca22e825",
+        "instanceIdentifier": "b18cba34-7569-3651-e0e6-8570ff0beeb9",
         "maxBackoffPeriod": "10 mins",
         "name": "CsvToAvroConverter",
         "penaltyDuration": "30 sec",
@@ -2009,206 +1973,10 @@
         "comments": "",
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
-        "executionNode": "ALL",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
-        "identifier": "a49fedbe-0196-1000-75a0-c77f587ded0f",
-        "instanceIdentifier": "d19260a5-3120-3f8e-8166-dfbff5193e09",
-        "maxBackoffPeriod": "10 mins",
-        "name": "Fetching Actual Content",
-        "penaltyDuration": "30 sec",
-        "position": {
-          "x": -2856,
-          "y": -912
-        },
-        "properties": {
-          "Endpoint Override URL": "#{EndpointOverrideURL}",
-          "requester-pays": "false",
-          "Object Key": "${filename}",
-          "AWS Credentials Provider service": "a49fedb0-0196-1000-0fb8-151bc0c58805",
-          "Signer Override": "Default Signature",
-          "Bucket": "${s3.bucket}",
-          "Communications Timeout": "30 secs",
-          "Region": "us-west-2"
-        },
-        "propertyDescriptors": {
-          "Proxy Host": {
-            "displayName": "Proxy Host",
-            "identifiesControllerService": false,
-            "name": "Proxy Host",
-            "sensitive": false
-          },
-          "range-length": {
-            "displayName": "Range Length",
-            "identifiesControllerService": false,
-            "name": "range-length",
-            "sensitive": false
-          },
-          "Access Key": {
-            "displayName": "Access Key ID",
-            "identifiesControllerService": false,
-            "name": "Access Key",
-            "sensitive": true
-          },
-          "range-start": {
-            "displayName": "Range Start",
-            "identifiesControllerService": false,
-            "name": "range-start",
-            "sensitive": false
-          },
-          "proxy-configuration-service": {
-            "displayName": "Proxy Configuration Service",
-            "identifiesControllerService": true,
-            "name": "proxy-configuration-service",
-            "sensitive": false
-          },
-          "Endpoint Override URL": {
-            "displayName": "Endpoint Override URL",
-            "identifiesControllerService": false,
-            "name": "Endpoint Override URL",
-            "sensitive": false
-          },
-          "custom-signer-class-name": {
-            "displayName": "Custom Signer Class Name",
-            "identifiesControllerService": false,
-            "name": "custom-signer-class-name",
-            "sensitive": false
-          },
-          "requester-pays": {
-            "displayName": "Requester Pays",
-            "identifiesControllerService": false,
-            "name": "requester-pays",
-            "sensitive": false
-          },
-          "Object Key": {
-            "displayName": "Object Key",
-            "identifiesControllerService": false,
-            "name": "Object Key",
-            "sensitive": false
-          },
-          "AWS Credentials Provider service": {
-            "displayName": "AWS Credentials Provider Service",
-            "identifiesControllerService": true,
-            "name": "AWS Credentials Provider service",
-            "sensitive": false
-          },
-          "custom-signer-module-location": {
-            "displayName": "Custom Signer Module Location",
-            "identifiesControllerService": false,
-            "name": "custom-signer-module-location",
-            "resourceDefinition": {
-              "cardinality": "MULTIPLE",
-              "resourceTypes": [
-                "DIRECTORY",
-                "FILE"
-              ]
-            },
-            "sensitive": false
-          },
-          "SSL Context Service": {
-            "displayName": "SSL Context Service",
-            "identifiesControllerService": true,
-            "name": "SSL Context Service",
-            "sensitive": false
-          },
-          "Signer Override": {
-            "displayName": "Signer Override",
-            "identifiesControllerService": false,
-            "name": "Signer Override",
-            "sensitive": false
-          },
-          "Bucket": {
-            "displayName": "Bucket",
-            "identifiesControllerService": false,
-            "name": "Bucket",
-            "sensitive": false
-          },
-          "Version": {
-            "displayName": "Version",
-            "identifiesControllerService": false,
-            "name": "Version",
-            "sensitive": false
-          },
-          "proxy-user-password": {
-            "displayName": "Proxy Password",
-            "identifiesControllerService": false,
-            "name": "proxy-user-password",
-            "sensitive": true
-          },
-          "Communications Timeout": {
-            "displayName": "Communications Timeout",
-            "identifiesControllerService": false,
-            "name": "Communications Timeout",
-            "sensitive": false
-          },
-          "Region": {
-            "displayName": "Region",
-            "identifiesControllerService": false,
-            "name": "Region",
-            "sensitive": false
-          },
-          "Secret Key": {
-            "displayName": "Secret Access Key",
-            "identifiesControllerService": false,
-            "name": "Secret Key",
-            "sensitive": true
-          },
-          "Credentials File": {
-            "displayName": "Credentials File",
-            "identifiesControllerService": false,
-            "name": "Credentials File",
-            "resourceDefinition": {
-              "cardinality": "SINGLE",
-              "resourceTypes": [
-                "FILE"
-              ]
-            },
-            "sensitive": false
-          },
-          "proxy-user-name": {
-            "displayName": "Proxy Username",
-            "identifiesControllerService": false,
-            "name": "proxy-user-name",
-            "sensitive": false
-          },
-          "Proxy Host Port": {
-            "displayName": "Proxy Host Port",
-            "identifiesControllerService": false,
-            "name": "Proxy Host Port",
-            "sensitive": false
-          },
-          "encryption-service": {
-            "displayName": "Encryption Service",
-            "identifiesControllerService": true,
-            "name": "encryption-service",
-            "sensitive": false
-          }
-        },
-        "retriedRelationships": [],
-        "retryCount": 10,
-        "runDurationMillis": 0,
-        "scheduledState": "ENABLED",
-        "schedulingPeriod": "0 sec",
-        "schedulingStrategy": "TIMER_DRIVEN",
-        "style": {},
-        "type": "org.apache.nifi.processors.aws.s3.FetchS3Object",
-        "yieldDuration": "1 sec"
-      },
-      {
-        "autoTerminatedRelationships": [],
-        "backoffMechanism": "PENALIZE_FLOWFILE",
-        "bulletinLevel": "WARN",
-        "bundle": {
-          "artifact": "nifi-aws-nar",
-          "group": "org.apache.nifi",
-          "version": "1.28.0"
-        },
-        "comments": "",
-        "componentType": "PROCESSOR",
-        "concurrentlySchedulableTaskCount": 1,
         "executionNode": "PRIMARY",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedb6-0196-1000-82e5-0a8985fc85f0",
-        "instanceIdentifier": "dfcfa273-7c2e-36a0-e739-3707595aa1a8",
+        "instanceIdentifier": "837b0c43-69f7-39b9-db8f-2b54aadf69a8",
         "maxBackoffPeriod": "10 mins",
         "name": "SourceBucketScanner",
         "penaltyDuration": "30 sec",
@@ -2456,6 +2224,202 @@
         "backoffMechanism": "PENALIZE_FLOWFILE",
         "bulletinLevel": "WARN",
         "bundle": {
+          "artifact": "nifi-aws-nar",
+          "group": "org.apache.nifi",
+          "version": "1.28.0"
+        },
+        "comments": "",
+        "componentType": "PROCESSOR",
+        "concurrentlySchedulableTaskCount": 1,
+        "executionNode": "ALL",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
+        "identifier": "a49fedbe-0196-1000-75a0-c77f587ded0f",
+        "instanceIdentifier": "b96af813-fc02-333a-07db-bc31e2e19281",
+        "maxBackoffPeriod": "10 mins",
+        "name": "Fetching Actual Content",
+        "penaltyDuration": "30 sec",
+        "position": {
+          "x": -2856,
+          "y": -912
+        },
+        "properties": {
+          "Endpoint Override URL": "#{EndpointOverrideURL}",
+          "requester-pays": "false",
+          "Object Key": "${filename}",
+          "AWS Credentials Provider service": "a49fedb0-0196-1000-0fb8-151bc0c58805",
+          "Signer Override": "Default Signature",
+          "Bucket": "${s3.bucket}",
+          "Communications Timeout": "30 secs",
+          "Region": "us-west-2"
+        },
+        "propertyDescriptors": {
+          "Proxy Host": {
+            "displayName": "Proxy Host",
+            "identifiesControllerService": false,
+            "name": "Proxy Host",
+            "sensitive": false
+          },
+          "range-length": {
+            "displayName": "Range Length",
+            "identifiesControllerService": false,
+            "name": "range-length",
+            "sensitive": false
+          },
+          "Access Key": {
+            "displayName": "Access Key ID",
+            "identifiesControllerService": false,
+            "name": "Access Key",
+            "sensitive": true
+          },
+          "range-start": {
+            "displayName": "Range Start",
+            "identifiesControllerService": false,
+            "name": "range-start",
+            "sensitive": false
+          },
+          "proxy-configuration-service": {
+            "displayName": "Proxy Configuration Service",
+            "identifiesControllerService": true,
+            "name": "proxy-configuration-service",
+            "sensitive": false
+          },
+          "Endpoint Override URL": {
+            "displayName": "Endpoint Override URL",
+            "identifiesControllerService": false,
+            "name": "Endpoint Override URL",
+            "sensitive": false
+          },
+          "custom-signer-class-name": {
+            "displayName": "Custom Signer Class Name",
+            "identifiesControllerService": false,
+            "name": "custom-signer-class-name",
+            "sensitive": false
+          },
+          "requester-pays": {
+            "displayName": "Requester Pays",
+            "identifiesControllerService": false,
+            "name": "requester-pays",
+            "sensitive": false
+          },
+          "Object Key": {
+            "displayName": "Object Key",
+            "identifiesControllerService": false,
+            "name": "Object Key",
+            "sensitive": false
+          },
+          "AWS Credentials Provider service": {
+            "displayName": "AWS Credentials Provider Service",
+            "identifiesControllerService": true,
+            "name": "AWS Credentials Provider service",
+            "sensitive": false
+          },
+          "custom-signer-module-location": {
+            "displayName": "Custom Signer Module Location",
+            "identifiesControllerService": false,
+            "name": "custom-signer-module-location",
+            "resourceDefinition": {
+              "cardinality": "MULTIPLE",
+              "resourceTypes": [
+                "DIRECTORY",
+                "FILE"
+              ]
+            },
+            "sensitive": false
+          },
+          "SSL Context Service": {
+            "displayName": "SSL Context Service",
+            "identifiesControllerService": true,
+            "name": "SSL Context Service",
+            "sensitive": false
+          },
+          "Signer Override": {
+            "displayName": "Signer Override",
+            "identifiesControllerService": false,
+            "name": "Signer Override",
+            "sensitive": false
+          },
+          "Bucket": {
+            "displayName": "Bucket",
+            "identifiesControllerService": false,
+            "name": "Bucket",
+            "sensitive": false
+          },
+          "Version": {
+            "displayName": "Version",
+            "identifiesControllerService": false,
+            "name": "Version",
+            "sensitive": false
+          },
+          "proxy-user-password": {
+            "displayName": "Proxy Password",
+            "identifiesControllerService": false,
+            "name": "proxy-user-password",
+            "sensitive": true
+          },
+          "Communications Timeout": {
+            "displayName": "Communications Timeout",
+            "identifiesControllerService": false,
+            "name": "Communications Timeout",
+            "sensitive": false
+          },
+          "Region": {
+            "displayName": "Region",
+            "identifiesControllerService": false,
+            "name": "Region",
+            "sensitive": false
+          },
+          "Secret Key": {
+            "displayName": "Secret Access Key",
+            "identifiesControllerService": false,
+            "name": "Secret Key",
+            "sensitive": true
+          },
+          "Credentials File": {
+            "displayName": "Credentials File",
+            "identifiesControllerService": false,
+            "name": "Credentials File",
+            "resourceDefinition": {
+              "cardinality": "SINGLE",
+              "resourceTypes": [
+                "FILE"
+              ]
+            },
+            "sensitive": false
+          },
+          "proxy-user-name": {
+            "displayName": "Proxy Username",
+            "identifiesControllerService": false,
+            "name": "proxy-user-name",
+            "sensitive": false
+          },
+          "Proxy Host Port": {
+            "displayName": "Proxy Host Port",
+            "identifiesControllerService": false,
+            "name": "Proxy Host Port",
+            "sensitive": false
+          },
+          "encryption-service": {
+            "displayName": "Encryption Service",
+            "identifiesControllerService": true,
+            "name": "encryption-service",
+            "sensitive": false
+          }
+        },
+        "retriedRelationships": [],
+        "retryCount": 10,
+        "runDurationMillis": 0,
+        "scheduledState": "ENABLED",
+        "schedulingPeriod": "0 sec",
+        "schedulingStrategy": "TIMER_DRIVEN",
+        "style": {},
+        "type": "org.apache.nifi.processors.aws.s3.FetchS3Object",
+        "yieldDuration": "1 sec"
+      },
+      {
+        "autoTerminatedRelationships": [],
+        "backoffMechanism": "PENALIZE_FLOWFILE",
+        "bulletinLevel": "WARN",
+        "bundle": {
           "artifact": "nifi-standard-nar",
           "group": "org.apache.nifi",
           "version": "1.28.0"
@@ -2464,9 +2428,9 @@
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a49fedbb-0196-1000-ed95-b86fed92654b",
-        "instanceIdentifier": "5dfb2f15-1edd-303d-c378-09c6ba9ce56e",
+        "instanceIdentifier": "8c6fbe93-a346-3404-6408-2d8558289828",
         "maxBackoffPeriod": "10 mins",
         "name": "Routes FlowFiles",
         "penaltyDuration": "30 sec",
@@ -2477,7 +2441,6 @@
         "properties": {
           "isCsv": "${filename:substringAfterLast('.'):equals('csv')}",
           "Routing Strategy": "Route to Property name",
-          "IsAvro": "${filename:substringAfterLast('.'):equals('avro')}",
           "IsJson": "${filename:substringAfterLast('.'):equals('json')}"
         },
         "propertyDescriptors": {
@@ -2491,12 +2454,6 @@
             "displayName": "Routing Strategy",
             "identifiesControllerService": false,
             "name": "Routing Strategy",
-            "sensitive": false
-          },
-          "IsAvro": {
-            "displayName": "IsAvro",
-            "identifiesControllerService": false,
-            "name": "IsAvro",
             "sensitive": false
           },
           "IsJson": {
@@ -2529,9 +2486,9 @@
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "a4ace0b2-0196-1000-a354-80bcbb524f0f",
-        "instanceIdentifier": "b62d3bb0-f224-3dea-92ac-6504e5e70566",
+        "instanceIdentifier": "1b1991e3-604f-39dd-86c2-0c3bc6abbf1f",
         "maxBackoffPeriod": "2 sec",
         "name": "WriteRecordToDestination",
         "penaltyDuration": "30 sec",
@@ -2725,9 +2682,9 @@
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "1db32700-9285-325d-9bfe-a5360b9a6140",
+        "groupIdentifier": "29edb0dc-b055-3bdd-957f-2d1ee62469f8",
         "identifier": "10c7cf8a-bfb0-3948-b390-0924f566a774",
-        "instanceIdentifier": "13b145b4-103f-3919-1f43-654d79e919ae",
+        "instanceIdentifier": "a93d22b5-6788-389b-bff2-55ae28ace64d",
         "maxBackoffPeriod": "10 mins",
         "name": "LogAttribute",
         "penaltyDuration": "30 sec",
@@ -2900,15 +2857,15 @@
   "snapshotMetadata": {
     "author": "anonymous",
     "bucketIdentifier": "Test",
-    "comments": "",
+    "comments": "working version",
     "flowIdentifier": "S3toJDBC",
     "link": {
-      "href": "buckets/e53bab50-b433-4525-ae62-3d2def61788d/flows/072e09c1-3083-422d-9331-77958faec78e/versions/1",
+      "href": "buckets/e53bab50-b433-4525-ae62-3d2def61788d/flows/072e09c1-3083-422d-9331-77958faec78e/versions/2",
       "params": {
         "rel": "content"
       }
     },
-    "timestamp": 1769164130699,
-    "version": 1
+    "timestamp": 1769780270223,
+    "version": 2
   }
 }
