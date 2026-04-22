@@ -74,7 +74,158 @@
         "zIndex": 0
       }
     ],
-    "controllerServices": [],
+    "controllerServices": [
+      {
+        "bundle": {
+          "artifact": "nifi-dbcp-service-nar",
+          "group": "org.apache.nifi",
+          "version": "1.15.0"
+        },
+        "componentType": "CONTROLLER_SERVICE",
+        "controllerServiceApis": [
+          {
+            "bundle": {
+              "artifact": "nifi-standard-services-api-nar",
+              "group": "org.apache.nifi",
+              "version": "1.15.0"
+            },
+            "type": "org.apache.nifi.dbcp.DBCPService"
+          }
+        ],
+        "groupIdentifier": "179f42bf-dd7e-3fa9-8f43-095dabe889f7",
+        "identifier": "96800d33-9473-3b85-8e2f-3c92d92d15ce",
+        "name": "DBCPConnectionPool",
+        "properties": {
+          "dbcp-min-idle-conns": "0",
+          "Max Wait Time": "500 millis",
+          "dbcp-min-evictable-idle-time": "30 mins",
+          "Max Total Connections": "8",
+          "dbcp-max-conn-lifetime": "-1",
+          "dbcp-time-between-eviction-runs": "-1",
+          "dbcp-soft-min-evictable-idle-time": "-1",
+          "dbcp-max-idle-conns": "8"
+        },
+        "propertyDescriptors": {
+          "kerberos-password": {
+            "displayName": "Kerberos Password",
+            "identifiesControllerService": false,
+            "name": "kerberos-password",
+            "sensitive": true
+          },
+          "dbcp-min-idle-conns": {
+            "displayName": "Minimum Idle Connections",
+            "identifiesControllerService": false,
+            "name": "dbcp-min-idle-conns",
+            "sensitive": false
+          },
+          "Max Wait Time": {
+            "displayName": "Max Wait Time",
+            "identifiesControllerService": false,
+            "name": "Max Wait Time",
+            "sensitive": false
+          },
+          "Database Driver Class Name": {
+            "displayName": "Database Driver Class Name",
+            "identifiesControllerService": false,
+            "name": "Database Driver Class Name",
+            "sensitive": false
+          },
+          "dbcp-min-evictable-idle-time": {
+            "displayName": "Minimum Evictable Idle Time",
+            "identifiesControllerService": false,
+            "name": "dbcp-min-evictable-idle-time",
+            "sensitive": false
+          },
+          "kerberos-principal": {
+            "displayName": "Kerberos Principal",
+            "identifiesControllerService": false,
+            "name": "kerberos-principal",
+            "sensitive": false
+          },
+          "Max Total Connections": {
+            "displayName": "Max Total Connections",
+            "identifiesControllerService": false,
+            "name": "Max Total Connections",
+            "sensitive": false
+          },
+          "kerberos-credentials-service": {
+            "displayName": "Kerberos Credentials Service",
+            "identifiesControllerService": true,
+            "name": "kerberos-credentials-service",
+            "sensitive": false
+          },
+          "dbcp-max-conn-lifetime": {
+            "displayName": "Max Connection Lifetime",
+            "identifiesControllerService": false,
+            "name": "dbcp-max-conn-lifetime",
+            "sensitive": false
+          },
+          "Validation-query": {
+            "displayName": "Validation query",
+            "identifiesControllerService": false,
+            "name": "Validation-query",
+            "sensitive": false
+          },
+          "Database Connection URL": {
+            "displayName": "Database Connection URL",
+            "identifiesControllerService": false,
+            "name": "Database Connection URL",
+            "sensitive": false
+          },
+          "dbcp-time-between-eviction-runs": {
+            "displayName": "Time Between Eviction Runs",
+            "identifiesControllerService": false,
+            "name": "dbcp-time-between-eviction-runs",
+            "sensitive": false
+          },
+          "Database User": {
+            "displayName": "Database User",
+            "identifiesControllerService": false,
+            "name": "Database User",
+            "sensitive": false
+          },
+          "kerberos-user-service": {
+            "displayName": "Kerberos User Service",
+            "identifiesControllerService": true,
+            "name": "kerberos-user-service",
+            "sensitive": false
+          },
+          "dbcp-soft-min-evictable-idle-time": {
+            "displayName": "Soft Minimum Evictable Idle Time",
+            "identifiesControllerService": false,
+            "name": "dbcp-soft-min-evictable-idle-time",
+            "sensitive": false
+          },
+          "database-driver-locations": {
+            "displayName": "Database Driver Location(s)",
+            "identifiesControllerService": false,
+            "name": "database-driver-locations",
+            "resourceDefinition": {
+              "cardinality": "MULTIPLE",
+              "resourceTypes": [
+                "DIRECTORY",
+                "URL",
+                "FILE"
+              ]
+            },
+            "sensitive": false
+          },
+          "dbcp-max-idle-conns": {
+            "displayName": "Max Idle Connections",
+            "identifiesControllerService": false,
+            "name": "dbcp-max-idle-conns",
+            "sensitive": false
+          },
+          "Password": {
+            "displayName": "Password",
+            "identifiesControllerService": false,
+            "name": "Password",
+            "sensitive": true
+          }
+        },
+        "type": "org.apache.nifi.dbcp.DBCPConnectionPool"
+      }
+    ],
     "defaultBackPressureDataSizeThreshold": "1 GB",
     "defaultBackPressureObjectThreshold": 10000,
     "defaultFlowFileExpiration": "0 sec",
@@ -96,9 +247,10 @@
     "labels": [],
     "name": "sample",
     "outputPorts": [],
+    "parameterContextName": "JDBC TO JDBC Flow",
     "position": {
-      "x": 432,
-      "y": 160
+      "x": 224,
+      "y": 72
     },
     "processGroups": [],
     "processors": [
@@ -187,19 +339,96 @@
     "variables": {}
   },
   "flowEncodingVersion": "1.0",
-  "parameterContexts": {},
+  "parameterContexts": {
+    "JDBC TO JDBC Flow": {
+      "componentType": "PARAMETER_CONTEXT",
+      "inheritedParameterContexts": [],
+      "name": "JDBC TO JDBC Flow",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Table Name",
+          "provided": false,
+          "sensitive": false,
+          "value": "customers"
+        },
+        {
+          "description": "",
+          "name": "DataBaseDriverLocation",
+          "provided": false,
+          "sensitive": false,
+          "value": "/home/ubuntu/mysql-connector-j-8.0.31.jar"
+        },
+        {
+          "description": "",
+          "name": "Script Engine",
+          "provided": false,
+          "sensitive": false,
+          "value": "Groovy"
+        },
+        {
+          "description": "",
+          "name": "DataBasePassword",
+          "provided": false,
+          "sensitive": true
+        },
+        {
+          "description": "",
+          "name": "Query",
+          "provided": false,
+          "sensitive": false,
+          "value": "select * from customers;"
+        },
+        {
+          "description": "",
+          "name": "Statement Type",
+          "provided": false,
+          "sensitive": false,
+          "value": "UPDATE"
+        },
+        {
+          "description": "",
+          "name": "DataBaseConnectionUrl",
+          "provided": false,
+          "sensitive": false,
+          "value": "jdbc:mysql://ec2-3-111-75-92.ap-south-1.compute.amazonaws.com:3306/ecommerce"
+        },
+        {
+          "description": "",
+          "name": "DataBaseUser",
+          "provided": false,
+          "sensitive": false,
+          "value": "ecommerce_admin"
+        },
+        {
+          "description": "",
+          "name": "DataBaseDriveClass",
+          "provided": false,
+          "sensitive": false,
+          "value": "com.mysql.cj.jdbc.Driver"
+        },
+        {
+          "description": "",
+          "name": "script",
+          "provided": false,
+          "sensitive": false,
+          "value": "import org.apache.commons.io.IOUtils\nimport java.nio.charset.StandardCharsets\nimport groovy.json.*\n\n// Read flow file content\ndef flowFile = session.get()\nif (!flowFile) return\n\nflowFile = session.write(flowFile, { inputStream, outputStream ->\n    def text = IOUtils.toString(inputStream, StandardCharsets.UTF_8)\n    def json = new JsonSlurper().parseText(text)\n\n    // Modify JSON array\n    def modified = json.collect { record ->\n        // Create full_name\n        record.full_name = \"${record.first_name} ${record.last_name}\"\n\n\n        // Remove phone number\n        record.remove(\"phone\")\n\n        return record\n    }\n\n    // Write back modified JSON\n    def outputJson = JsonOutput.prettyPrint(JsonOutput.toJson(modified))\n    outputStream.write(outputJson.getBytes(StandardCharsets.UTF_8))\n} as StreamCallback)\n\nsession.transfer(flowFile, REL_SUCCESS)\n"
+        }
+      ]
+    }
+  },
   "snapshotMetadata": {
     "author": "anonymous",
     "bucketIdentifier": "Data Ingestion",
-    "comments": "",
+    "comments": "Added local controller service\n",
     "flowIdentifier": "Sample testing",
     "link": {
-      "href": "buckets/078c2ec2-db39-4bc9-9652-6f1b0f7eadd9/flows/6de13007-ad6f-4300-89fe-4bd42dde9ef7/versions/1",
+      "href": "buckets/078c2ec2-db39-4bc9-9652-6f1b0f7eadd9/flows/6de13007-ad6f-4300-89fe-4bd42dde9ef7/versions/2",
       "params": {
         "rel": "content"
       }
     },
-    "timestamp": 1769513890692,
-    "version": 1
+    "timestamp": 1769587774463,
+    "version": 2
   }
 }
