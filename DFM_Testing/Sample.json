@@ -1,0 +1,127 @@
+{
+  "bucket": {
+    "allowBundleRedeploy": false,
+    "allowPublicRead": true,
+    "createdTimestamp": 1760426529343,
+    "description": "",
+    "identifier": "DFM_Testing",
+    "link": {
+      "href": "buckets/033d219e-9ef9-4b36-bc0d-6777188fba78",
+      "params": {
+        "rel": "self"
+      }
+    },
+    "name": "DFM_Testing",
+    "permissions": {
+      "canDelete": true,
+      "canRead": true,
+      "canWrite": true
+    }
+  },
+  "externalControllerServices": {},
+  "flow": {
+    "bucketIdentifier": "033d219e-9ef9-4b36-bc0d-6777188fba78",
+    "bucketName": "DFM_Testing",
+    "createdTimestamp": 1761222559399,
+    "description": "",
+    "identifier": "Sample",
+    "link": {
+      "href": "buckets/033d219e-9ef9-4b36-bc0d-6777188fba78/flows/91f99c65-9d9c-4d3d-b189-168eae0655c2",
+      "params": {
+        "rel": "self"
+      }
+    },
+    "modifiedTimestamp": 1761222559923,
+    "name": "Sample",
+    "type": "Flow",
+    "versionCount": 1
+  },
+  "flowContents": {
+    "comments": "",
+    "componentType": "PROCESS_GROUP",
+    "connections": [],
+    "controllerServices": [],
+    "defaultBackPressureDataSizeThreshold": "1 GB",
+    "defaultBackPressureObjectThreshold": 10000,
+    "defaultFlowFileExpiration": "0 sec",
+    "flowFileConcurrency": "UNBOUNDED",
+    "flowFileOutboundPolicy": "STREAM_WHEN_AVAILABLE",
+    "funnels": [],
+    "identifier": "b8c8fa68-feb3-3b6b-946a-f5c994e7f85f",
+    "inputPorts": [],
+    "instanceIdentifier": "1109f42d-019a-1000-b76b-4854f6d5c673",
+    "labels": [],
+    "name": "sample",
+    "outputPorts": [],
+    "position": {
+      "x": 578,
+      "y": 307
+    },
+    "processGroups": [],
+    "processors": [
+      {
+        "autoTerminatedRelationships": [],
+        "backoffMechanism": "PENALIZE_FLOWFILE",
+        "bulletinLevel": "WARN",
+        "bundle": {
+          "artifact": "nifi-parquet-nar",
+          "group": "org.apache.nifi",
+          "version": "1.28.0"
+        },
+        "comments": "",
+        "componentType": "PROCESSOR",
+        "concurrentlySchedulableTaskCount": 1,
+        "executionNode": "ALL",
+        "groupIdentifier": "b8c8fa68-feb3-3b6b-946a-f5c994e7f85f",
+        "identifier": "1aef25bf-16e0-33db-901b-f8dbd0a9ccb4",
+        "instanceIdentifier": "110a076f-019a-1000-23da-6bca2985ffcf",
+        "maxBackoffPeriod": "10 mins",
+        "name": "CalculateParquetRowGroupOffsets",
+        "penaltyDuration": "30 sec",
+        "position": {
+          "x": 404,
+          "y": 166
+        },
+        "properties": {
+          "Zero Content Output": "false"
+        },
+        "propertyDescriptors": {
+          "Zero Content Output": {
+            "displayName": "Zero Content Output",
+            "identifiesControllerService": false,
+            "name": "Zero Content Output",
+            "sensitive": false
+          }
+        },
+        "retriedRelationships": [],
+        "retryCount": 10,
+        "runDurationMillis": 0,
+        "scheduledState": "ENABLED",
+        "schedulingPeriod": "0 sec",
+        "schedulingStrategy": "TIMER_DRIVEN",
+        "style": {},
+        "type": "org.apache.nifi.processors.parquet.CalculateParquetRowGroupOffsets",
+        "yieldDuration": "1 sec"
+      }
+    ],
+    "remoteProcessGroups": [],
+    "variables": {}
+  },
+  "flowEncodingVersion": "1.0",
+  "parameterContexts": {},
+  "parameterProviders": {},
+  "snapshotMetadata": {
+    "author": "anonymous",
+    "bucketIdentifier": "DFM_Testing",
+    "comments": "",
+    "flowIdentifier": "Sample",
+    "link": {
+      "href": "buckets/033d219e-9ef9-4b36-bc0d-6777188fba78/flows/91f99c65-9d9c-4d3d-b189-168eae0655c2/versions/1",
+      "params": {
+        "rel": "content"
+      }
+    },
+    "timestamp": 1761222559614,
+    "version": 1
+  }
+}
