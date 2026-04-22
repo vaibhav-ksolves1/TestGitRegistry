@@ -47,16 +47,16 @@
         "componentType": "CONNECTION",
         "destination": {
           "comments": "",
-          "groupId": "6f5c9f1d-28dc-3490-bd5b-6df41d751e84",
+          "groupId": "fc6d8085-68fd-33cd-9fb1-d6c6b38b3b49",
           "id": "20d1ded7-5394-310c-ad9b-9b1cbeaa9c29",
-          "instanceIdentifier": "d24e1753-019c-1000-0000-000012c2e3fa",
+          "instanceIdentifier": "7d2bc332-d624-3f75-d6d8-03d5390b01ad",
           "name": "LogAttribute",
           "type": "PROCESSOR"
         },
         "flowFileExpiration": "0 sec",
-        "groupIdentifier": "6f5c9f1d-28dc-3490-bd5b-6df41d751e84",
+        "groupIdentifier": "fc6d8085-68fd-33cd-9fb1-d6c6b38b3b49",
         "identifier": "982bd9f5-4df9-39d4-8dd6-b7f10084cce9",
-        "instanceIdentifier": "d24e2c7d-019c-1000-0000-00002fa464c3",
+        "instanceIdentifier": "ccc0fa0f-9762-3041-c880-2d9dc8a307ee",
         "labelIndex": 0,
         "loadBalanceCompression": "DO_NOT_COMPRESS",
         "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
@@ -68,9 +68,9 @@
         ],
         "source": {
           "comments": "",
-          "groupId": "6f5c9f1d-28dc-3490-bd5b-6df41d751e84",
+          "groupId": "fc6d8085-68fd-33cd-9fb1-d6c6b38b3b49",
           "id": "80f3c447-d8fe-331e-b249-fb1071ff4473",
-          "instanceIdentifier": "d24df9a3-019c-1000-0000-00007972cc1d",
+          "instanceIdentifier": "5f349192-f928-327e-bee7-12c8ff0ccfef",
           "name": "GenerateFlowFile",
           "type": "PROCESSOR"
         },
@@ -84,20 +84,22 @@
     "flowFileConcurrency": "UNBOUNDED",
     "flowFileOutboundPolicy": "STREAM_WHEN_AVAILABLE",
     "funnels": [],
-    "identifier": "6f5c9f1d-28dc-3490-bd5b-6df41d751e84",
+    "identifier": "fc6d8085-68fd-33cd-9fb1-d6c6b38b3b49",
     "inputPorts": [],
-    "instanceIdentifier": "d24dd460-019c-1000-ffff-ffffc32f7fdf",
+    "instanceIdentifier": "9271391a-019d-1000-ba59-857280fde6f4",
     "labels": [],
     "name": "Sample -Flow",
     "outputPorts": [],
     "position": {
-      "x": -376,
-      "y": -240
+      "x": 61,
+      "y": -340.5
     },
     "processGroups": [],
     "processors": [
       {
-        "autoTerminatedRelationships": [],
+        "autoTerminatedRelationships": [
+          "success"
+        ],
         "backoffMechanism": "PENALIZE_FLOWFILE",
         "bulletinLevel": "WARN",
         "bundle": {
@@ -109,9 +111,9 @@
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "6f5c9f1d-28dc-3490-bd5b-6df41d751e84",
+        "groupIdentifier": "fc6d8085-68fd-33cd-9fb1-d6c6b38b3b49",
         "identifier": "20d1ded7-5394-310c-ad9b-9b1cbeaa9c29",
-        "instanceIdentifier": "d24e1753-019c-1000-0000-000012c2e3fa",
+        "instanceIdentifier": "7d2bc332-d624-3f75-d6d8-03d5390b01ad",
         "maxBackoffPeriod": "10 mins",
         "name": "LogAttribute",
         "penaltyDuration": "30 sec",
@@ -212,15 +214,15 @@
         "componentType": "PROCESSOR",
         "concurrentlySchedulableTaskCount": 1,
         "executionNode": "ALL",
-        "groupIdentifier": "6f5c9f1d-28dc-3490-bd5b-6df41d751e84",
+        "groupIdentifier": "fc6d8085-68fd-33cd-9fb1-d6c6b38b3b49",
         "identifier": "80f3c447-d8fe-331e-b249-fb1071ff4473",
-        "instanceIdentifier": "d24df9a3-019c-1000-0000-00007972cc1d",
+        "instanceIdentifier": "5f349192-f928-327e-bee7-12c8ff0ccfef",
         "maxBackoffPeriod": "10 mins",
         "name": "GenerateFlowFile",
         "penaltyDuration": "30 sec",
         "position": {
-          "x": -376,
-          "y": -304
+          "x": -384,
+          "y": -408
         },
         "properties": {
           "character-set": "UTF-8",
@@ -294,15 +296,15 @@
   "snapshotMetadata": {
     "author": "anonymous",
     "bucketIdentifier": "Test",
-    "comments": "First Version",
+    "comments": "working version 2",
     "flowIdentifier": "Sample-Flow",
     "link": {
-      "href": "buckets/e53bab50-b433-4525-ae62-3d2def61788d/flows/34af516c-4152-4ff8-a790-d558376ff190/versions/1",
+      "href": "buckets/e53bab50-b433-4525-ae62-3d2def61788d/flows/34af516c-4152-4ff8-a790-d558376ff190/versions/2",
       "params": {
         "rel": "content"
       }
     },
-    "timestamp": 1773055045466,
-    "version": 1
+    "timestamp": 1776278425640,
+    "version": 2
   }
 }
