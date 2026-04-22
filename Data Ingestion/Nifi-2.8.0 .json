@@ -75,6 +75,42 @@
           "type": "PROCESSOR"
         },
         "zIndex": 1
+      },
+      {
+        "backPressureDataSizeThreshold": "1 GB",
+        "backPressureObjectThreshold": 10000,
+        "bends": [],
+        "componentType": "CONNECTION",
+        "destination": {
+          "comments": "",
+          "groupId": "e693d6b0-7c9c-3269-ba23-6fcacc8e55e0",
+          "id": "4aec4cb2-633d-3561-a90e-53881e8dc492",
+          "instanceIdentifier": "51c2b778-019c-1000-d338-65965e42f659",
+          "name": "Funnel",
+          "type": "FUNNEL"
+        },
+        "flowFileExpiration": "0 sec",
+        "groupIdentifier": "e693d6b0-7c9c-3269-ba23-6fcacc8e55e0",
+        "identifier": "6b9a380d-b8c8-30a9-a7ed-98a26a1ccbe6",
+        "instanceIdentifier": "51c2c740-019c-1000-3f44-c45daf6fc300",
+        "labelIndex": 0,
+        "loadBalanceCompression": "DO_NOT_COMPRESS",
+        "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
+        "name": "",
+        "partitioningAttribute": "",
+        "prioritizers": [],
+        "selectedRelationships": [
+          "success"
+        ],
+        "source": {
+          "comments": "",
+          "groupId": "e693d6b0-7c9c-3269-ba23-6fcacc8e55e0",
+          "id": "506650f5-385e-3bb5-a467-53526b7c897d",
+          "instanceIdentifier": "50c5027f-019c-1000-8f9e-79ad741baa6b",
+          "name": "GenerateFlowFile",
+          "type": "PROCESSOR"
+        },
+        "zIndex": 2
       }
     ],
     "controllerServices": [],
@@ -83,7 +119,18 @@
     "defaultFlowFileExpiration": "0 sec",
     "flowFileConcurrency": "UNBOUNDED",
     "flowFileOutboundPolicy": "STREAM_WHEN_AVAILABLE",
-    "funnels": [],
+    "funnels": [
+      {
+        "componentType": "FUNNEL",
+        "groupIdentifier": "e693d6b0-7c9c-3269-ba23-6fcacc8e55e0",
+        "identifier": "4aec4cb2-633d-3561-a90e-53881e8dc492",
+        "instanceIdentifier": "51c2b778-019c-1000-d338-65965e42f659",
+        "position": {
+          "x": 282.9999445994981,
+          "y": -57.38918529357852
+        }
+      }
+    ],
     "identifier": "e693d6b0-7c9c-3269-ba23-6fcacc8e55e0",
     "inputPorts": [],
     "instanceIdentifier": "50c4dc51-019c-1000-40ef-d53a9c61fe27",
@@ -91,8 +138,8 @@
     "name": "Nifi-2.8.0-Flow",
     "outputPorts": [],
     "position": {
-      "x": -1368,
-      "y": 880
+      "x": -1432,
+      "y": 720
     },
     "processGroups": [],
     "processors": [
@@ -296,15 +343,15 @@
   "snapshotMetadata": {
     "author": "anonymous",
     "bucketIdentifier": "Data Ingestion",
-    "comments": "",
+    "comments": "Funnel Added",
     "flowIdentifier": "Nifi-2.8.0 ",
     "link": {
-      "href": "buckets/078c2ec2-db39-4bc9-9652-6f1b0f7eadd9/flows/6e0a707e-1049-460b-8d4f-0e84299f30c1/versions/1",
+      "href": "buckets/078c2ec2-db39-4bc9-9652-6f1b0f7eadd9/flows/6e0a707e-1049-460b-8d4f-0e84299f30c1/versions/2",
       "params": {
         "rel": "content"
       }
     },
-    "timestamp": 1770881662426,
-    "version": 1
+    "timestamp": 1770898254956,
+    "version": 2
   }
 }
