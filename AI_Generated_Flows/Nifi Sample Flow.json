@@ -1,0 +1,308 @@
+{
+  "bucket": {
+    "allowBundleRedeploy": false,
+    "allowPublicRead": true,
+    "createdTimestamp": 1762930040804,
+    "description": "contains AI generated flows",
+    "identifier": "AI_Generated_Flows",
+    "link": {
+      "href": "buckets/9fd9b772-1140-4ca9-9cf7-6433901fd6ea",
+      "params": {
+        "rel": "self"
+      }
+    },
+    "name": "AI_Generated_Flows",
+    "permissions": {
+      "canDelete": true,
+      "canRead": true,
+      "canWrite": true
+    }
+  },
+  "externalControllerServices": {},
+  "flow": {
+    "bucketIdentifier": "9fd9b772-1140-4ca9-9cf7-6433901fd6ea",
+    "bucketName": "AI_Generated_Flows",
+    "createdTimestamp": 1775469775258,
+    "description": "",
+    "identifier": "Nifi Sample Flow",
+    "link": {
+      "href": "buckets/9fd9b772-1140-4ca9-9cf7-6433901fd6ea/flows/118ed4bf-cc8f-4614-98c0-c5c60977156f",
+      "params": {
+        "rel": "self"
+      }
+    },
+    "modifiedTimestamp": 1775469775680,
+    "name": "Nifi Sample Flow",
+    "type": "Flow",
+    "versionCount": 1
+  },
+  "flowContents": {
+    "comments": "",
+    "componentType": "PROCESS_GROUP",
+    "connections": [
+      {
+        "backPressureDataSizeThreshold": "1 GB",
+        "backPressureObjectThreshold": 10000,
+        "bends": [],
+        "componentType": "CONNECTION",
+        "destination": {
+          "comments": "",
+          "groupId": "0c24c821-a76e-33fb-8e97-50142a8c770f",
+          "id": "8505b53b-6410-31d6-9f73-0f71775c79c9",
+          "instanceIdentifier": "623d3f03-019d-1000-0000-0000682f8205",
+          "name": "LogAttribute",
+          "type": "PROCESSOR"
+        },
+        "flowFileExpiration": "0 sec",
+        "groupIdentifier": "0c24c821-a76e-33fb-8e97-50142a8c770f",
+        "identifier": "45b731d3-1c5b-3519-84bd-81a4c7284938",
+        "instanceIdentifier": "623d4f83-019d-1000-ffff-ffffd50179a9",
+        "labelIndex": 0,
+        "loadBalanceCompression": "DO_NOT_COMPRESS",
+        "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
+        "name": "",
+        "partitioningAttribute": "",
+        "prioritizers": [],
+        "selectedRelationships": [
+          "success"
+        ],
+        "source": {
+          "comments": "",
+          "groupId": "0c24c821-a76e-33fb-8e97-50142a8c770f",
+          "id": "7da544d2-7ad5-38ae-8134-7266bc5da9e1",
+          "instanceIdentifier": "623d27f1-019d-1000-0000-00007663a52e",
+          "name": "GenerateFlowFile",
+          "type": "PROCESSOR"
+        },
+        "zIndex": 1
+      }
+    ],
+    "controllerServices": [],
+    "defaultBackPressureDataSizeThreshold": "1 GB",
+    "defaultBackPressureObjectThreshold": 10000,
+    "defaultFlowFileExpiration": "0 sec",
+    "flowFileConcurrency": "UNBOUNDED",
+    "flowFileOutboundPolicy": "STREAM_WHEN_AVAILABLE",
+    "funnels": [],
+    "identifier": "0c24c821-a76e-33fb-8e97-50142a8c770f",
+    "inputPorts": [],
+    "instanceIdentifier": "623cef1d-019d-1000-ffff-ffffb6d7b499",
+    "labels": [],
+    "name": "sample nifi flow",
+    "outputPorts": [],
+    "position": {
+      "x": -496,
+      "y": -320
+    },
+    "processGroups": [],
+    "processors": [
+      {
+        "autoTerminatedRelationships": [],
+        "backoffMechanism": "PENALIZE_FLOWFILE",
+        "bulletinLevel": "WARN",
+        "bundle": {
+          "artifact": "nifi-standard-nar",
+          "group": "org.apache.nifi",
+          "version": "2.7.2"
+        },
+        "comments": "",
+        "componentType": "PROCESSOR",
+        "concurrentlySchedulableTaskCount": 1,
+        "executionNode": "ALL",
+        "groupIdentifier": "0c24c821-a76e-33fb-8e97-50142a8c770f",
+        "identifier": "7da544d2-7ad5-38ae-8134-7266bc5da9e1",
+        "instanceIdentifier": "623d27f1-019d-1000-0000-00007663a52e",
+        "maxBackoffPeriod": "10 mins",
+        "name": "GenerateFlowFile",
+        "penaltyDuration": "30 sec",
+        "position": {
+          "x": -552,
+          "y": -296
+        },
+        "properties": {
+          "File Size": "0B",
+          "Batch Size": "1",
+          "Unique FlowFiles": "false",
+          "Custom Text": "sample text data",
+          "Character Set": "UTF-8",
+          "Data Format": "Text"
+        },
+        "propertyDescriptors": {
+          "File Size": {
+            "displayName": "File Size",
+            "identifiesControllerService": false,
+            "name": "File Size",
+            "sensitive": false
+          },
+          "Batch Size": {
+            "displayName": "Batch Size",
+            "identifiesControllerService": false,
+            "name": "Batch Size",
+            "sensitive": false
+          },
+          "Unique FlowFiles": {
+            "displayName": "Unique FlowFiles",
+            "identifiesControllerService": false,
+            "name": "Unique FlowFiles",
+            "sensitive": false
+          },
+          "Mime Type": {
+            "displayName": "Mime Type",
+            "identifiesControllerService": false,
+            "name": "Mime Type",
+            "sensitive": false
+          },
+          "Custom Text": {
+            "displayName": "Custom Text",
+            "identifiesControllerService": false,
+            "name": "Custom Text",
+            "sensitive": false
+          },
+          "Character Set": {
+            "displayName": "Character Set",
+            "identifiesControllerService": false,
+            "name": "Character Set",
+            "sensitive": false
+          },
+          "Data Format": {
+            "displayName": "Data Format",
+            "identifiesControllerService": false,
+            "name": "Data Format",
+            "sensitive": false
+          }
+        },
+        "retriedRelationships": [],
+        "retryCount": 10,
+        "runDurationMillis": 0,
+        "scheduledState": "ENABLED",
+        "schedulingPeriod": "1 min",
+        "schedulingStrategy": "TIMER_DRIVEN",
+        "style": {},
+        "type": "org.apache.nifi.processors.standard.GenerateFlowFile",
+        "yieldDuration": "1 sec"
+      },
+      {
+        "autoTerminatedRelationships": [],
+        "backoffMechanism": "PENALIZE_FLOWFILE",
+        "bulletinLevel": "WARN",
+        "bundle": {
+          "artifact": "nifi-standard-nar",
+          "group": "org.apache.nifi",
+          "version": "2.7.2"
+        },
+        "comments": "",
+        "componentType": "PROCESSOR",
+        "concurrentlySchedulableTaskCount": 1,
+        "executionNode": "ALL",
+        "groupIdentifier": "0c24c821-a76e-33fb-8e97-50142a8c770f",
+        "identifier": "8505b53b-6410-31d6-9f73-0f71775c79c9",
+        "instanceIdentifier": "623d3f03-019d-1000-0000-0000682f8205",
+        "maxBackoffPeriod": "10 mins",
+        "name": "LogAttribute",
+        "penaltyDuration": "30 sec",
+        "position": {
+          "x": -544,
+          "y": 0
+        },
+        "properties": {
+          "Log FlowFile Properties": "true",
+          "Log Level": "info",
+          "Output Format": "Line per Attribute",
+          "Log Payload": "false",
+          "Character Set": "UTF-8",
+          "Attributes to Log Regular Expression": ".*"
+        },
+        "propertyDescriptors": {
+          "Log FlowFile Properties": {
+            "displayName": "Log FlowFile Properties",
+            "identifiesControllerService": false,
+            "name": "Log FlowFile Properties",
+            "sensitive": false
+          },
+          "Log Level": {
+            "displayName": "Log Level",
+            "identifiesControllerService": false,
+            "name": "Log Level",
+            "sensitive": false
+          },
+          "Attributes to Ignore": {
+            "displayName": "Attributes to Ignore",
+            "identifiesControllerService": false,
+            "name": "Attributes to Ignore",
+            "sensitive": false
+          },
+          "Attributes to Log": {
+            "displayName": "Attributes to Log",
+            "identifiesControllerService": false,
+            "name": "Attributes to Log",
+            "sensitive": false
+          },
+          "Attributes to Ignore Regular Expression": {
+            "displayName": "Attributes to Ignore Regular Expression",
+            "identifiesControllerService": false,
+            "name": "Attributes to Ignore Regular Expression",
+            "sensitive": false
+          },
+          "Output Format": {
+            "displayName": "Output Format",
+            "identifiesControllerService": false,
+            "name": "Output Format",
+            "sensitive": false
+          },
+          "Log Payload": {
+            "displayName": "Log Payload",
+            "identifiesControllerService": false,
+            "name": "Log Payload",
+            "sensitive": false
+          },
+          "Log Prefix": {
+            "displayName": "Log Prefix",
+            "identifiesControllerService": false,
+            "name": "Log Prefix",
+            "sensitive": false
+          },
+          "Character Set": {
+            "displayName": "Character Set",
+            "identifiesControllerService": false,
+            "name": "Character Set",
+            "sensitive": false
+          },
+          "Attributes to Log Regular Expression": {
+            "displayName": "Attributes to Log Regular Expression",
+            "identifiesControllerService": false,
+            "name": "Attributes to Log Regular Expression",
+            "sensitive": false
+          }
+        },
+        "retriedRelationships": [],
+        "retryCount": 10,
+        "runDurationMillis": 25,
+        "scheduledState": "ENABLED",
+        "schedulingPeriod": "0 sec",
+        "schedulingStrategy": "TIMER_DRIVEN",
+        "style": {},
+        "type": "org.apache.nifi.processors.standard.LogAttribute",
+        "yieldDuration": "1 sec"
+      }
+    ],
+    "remoteProcessGroups": [],
+    "variables": {}
+  },
+  "flowEncodingVersion": "1.0",
+  "parameterContexts": {},
+  "parameterProviders": {},
+  "snapshotMetadata": {
+    "author": "anonymous",
+    "bucketIdentifier": "AI_Generated_Flows",
+    "comments": "",
+    "flowIdentifier": "Nifi Sample Flow",
+    "link": {
+      "href": "buckets/9fd9b772-1140-4ca9-9cf7-6433901fd6ea/flows/118ed4bf-cc8f-4614-98c0-c5c60977156f/versions/1",
+      "params": {
+        "rel": "content"
+      }
+    },
+    "timestamp": 1775469775522,
+    "version": 1
+  }
+}
