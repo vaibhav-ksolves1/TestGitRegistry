@@ -1,0 +1,201 @@
+{
+  "bucket": {
+    "allowBundleRedeploy": false,
+    "allowPublicRead": true,
+    "createdTimestamp": 1762930040804,
+    "description": "contains AI generated flows",
+    "identifier": "AI_Generated_Flows",
+    "link": {
+      "href": "buckets/9fd9b772-1140-4ca9-9cf7-6433901fd6ea",
+      "params": {
+        "rel": "self"
+      }
+    },
+    "name": "AI_Generated_Flows",
+    "permissions": {
+      "canDelete": true,
+      "canRead": true,
+      "canWrite": true
+    }
+  },
+  "externalControllerServices": {},
+  "flow": {
+    "bucketIdentifier": "9fd9b772-1140-4ca9-9cf7-6433901fd6ea",
+    "bucketName": "AI_Generated_Flows",
+    "createdTimestamp": 1772092104815,
+    "description": "",
+    "identifier": "Sample",
+    "link": {
+      "href": "buckets/9fd9b772-1140-4ca9-9cf7-6433901fd6ea/flows/e593ad4f-bf2b-4327-b4b0-8dad976d34a0",
+      "params": {
+        "rel": "self"
+      }
+    },
+    "modifiedTimestamp": 1772092105290,
+    "name": "Sample",
+    "type": "Flow",
+    "versionCount": 1
+  },
+  "flowContents": {
+    "comments": "",
+    "componentType": "PROCESS_GROUP",
+    "connections": [
+      {
+        "backPressureDataSizeThreshold": "1 GB",
+        "backPressureObjectThreshold": 10000,
+        "bends": [],
+        "componentType": "CONNECTION",
+        "destination": {
+          "comments": "",
+          "groupId": "8538bd49-42a5-38f9-a782-c0c67b09350a",
+          "id": "bf3fb74b-74ac-317b-94a1-de6f72b8839b",
+          "name": "Funnel",
+          "type": "FUNNEL"
+        },
+        "flowFileExpiration": "0 sec",
+        "groupIdentifier": "8538bd49-42a5-38f9-a782-c0c67b09350a",
+        "identifier": "b5706115-8758-3271-9fab-3c5c7c4d343d",
+        "labelIndex": 1,
+        "loadBalanceCompression": "DO_NOT_COMPRESS",
+        "loadBalanceStrategy": "DO_NOT_LOAD_BALANCE",
+        "name": "",
+        "partitioningAttribute": "",
+        "prioritizers": [],
+        "selectedRelationships": [
+          "success"
+        ],
+        "source": {
+          "comments": "",
+          "groupId": "8538bd49-42a5-38f9-a782-c0c67b09350a",
+          "id": "d77cd993-219d-39f6-8689-253ccc0aefa0",
+          "name": "GenerateFlowFile",
+          "type": "PROCESSOR"
+        },
+        "zIndex": 0
+      }
+    ],
+    "controllerServices": [],
+    "flowFileConcurrency": "UNBOUNDED",
+    "flowFileOutboundPolicy": "STREAM_WHEN_AVAILABLE",
+    "funnels": [
+      {
+        "componentType": "FUNNEL",
+        "groupIdentifier": "8538bd49-42a5-38f9-a782-c0c67b09350a",
+        "identifier": "bf3fb74b-74ac-317b-94a1-de6f72b8839b",
+        "position": {
+          "x": 674,
+          "y": 443
+        }
+      }
+    ],
+    "identifier": "8538bd49-42a5-38f9-a782-c0c67b09350a",
+    "inputPorts": [],
+    "labels": [],
+    "name": "sample",
+    "outputPorts": [],
+    "position": {
+      "x": 564,
+      "y": 290
+    },
+    "processGroups": [],
+    "processors": [
+      {
+        "autoTerminatedRelationships": [],
+        "bulletinLevel": "WARN",
+        "bundle": {
+          "artifact": "nifi-standard-nar",
+          "group": "org.apache.nifi",
+          "version": "1.12.0"
+        },
+        "comments": "",
+        "componentType": "PROCESSOR",
+        "concurrentlySchedulableTaskCount": 1,
+        "executionNode": "ALL",
+        "groupIdentifier": "8538bd49-42a5-38f9-a782-c0c67b09350a",
+        "identifier": "d77cd993-219d-39f6-8689-253ccc0aefa0",
+        "name": "GenerateFlowFile",
+        "penaltyDuration": "30 sec",
+        "position": {
+          "x": 504,
+          "y": 152
+        },
+        "properties": {
+          "character-set": "UTF-8",
+          "File Size": "0B",
+          "Batch Size": "1",
+          "Unique FlowFiles": "false",
+          "Data Format": "Text"
+        },
+        "propertyDescriptors": {
+          "character-set": {
+            "displayName": "Character Set",
+            "identifiesControllerService": false,
+            "name": "character-set",
+            "sensitive": false
+          },
+          "File Size": {
+            "displayName": "File Size",
+            "identifiesControllerService": false,
+            "name": "File Size",
+            "sensitive": false
+          },
+          "mime-type": {
+            "displayName": "Mime Type",
+            "identifiesControllerService": false,
+            "name": "mime-type",
+            "sensitive": false
+          },
+          "generate-ff-custom-text": {
+            "displayName": "Custom Text",
+            "identifiesControllerService": false,
+            "name": "generate-ff-custom-text",
+            "sensitive": false
+          },
+          "Batch Size": {
+            "displayName": "Batch Size",
+            "identifiesControllerService": false,
+            "name": "Batch Size",
+            "sensitive": false
+          },
+          "Unique FlowFiles": {
+            "displayName": "Unique FlowFiles",
+            "identifiesControllerService": false,
+            "name": "Unique FlowFiles",
+            "sensitive": false
+          },
+          "Data Format": {
+            "displayName": "Data Format",
+            "identifiesControllerService": false,
+            "name": "Data Format",
+            "sensitive": false
+          }
+        },
+        "runDurationMillis": 0,
+        "scheduledState": "ENABLED",
+        "schedulingPeriod": "0 sec",
+        "schedulingStrategy": "TIMER_DRIVEN",
+        "style": {},
+        "type": "org.apache.nifi.processors.standard.GenerateFlowFile",
+        "yieldDuration": "1 sec"
+      }
+    ],
+    "remoteProcessGroups": [],
+    "variables": {}
+  },
+  "flowEncodingVersion": "1.0",
+  "parameterContexts": {},
+  "snapshotMetadata": {
+    "author": "anonymous",
+    "bucketIdentifier": "AI_Generated_Flows",
+    "comments": "",
+    "flowIdentifier": "Sample",
+    "link": {
+      "href": "buckets/9fd9b772-1140-4ca9-9cf7-6433901fd6ea/flows/e593ad4f-bf2b-4327-b4b0-8dad976d34a0/versions/1",
+      "params": {
+        "rel": "content"
+      }
+    },
+    "timestamp": 1772092105123,
+    "version": 1
+  }
+}
