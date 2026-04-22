@@ -1,0 +1,82 @@
+{
+  "bucket": {
+    "allowBundleRedeploy": false,
+    "allowPublicRead": true,
+    "createdTimestamp": 1762930040804,
+    "description": "contains AI generated flows",
+    "identifier": "AI_Generated_Flows",
+    "link": {
+      "href": "buckets/9fd9b772-1140-4ca9-9cf7-6433901fd6ea",
+      "params": {
+        "rel": "self"
+      }
+    },
+    "name": "AI_Generated_Flows",
+    "permissions": {
+      "canDelete": true,
+      "canRead": true,
+      "canWrite": true
+    }
+  },
+  "externalControllerServices": {},
+  "flow": {
+    "bucketIdentifier": "9fd9b772-1140-4ca9-9cf7-6433901fd6ea",
+    "bucketName": "AI_Generated_Flows",
+    "createdTimestamp": 1767874954531,
+    "description": "",
+    "identifier": "s3todatabase",
+    "link": {
+      "href": "buckets/9fd9b772-1140-4ca9-9cf7-6433901fd6ea/flows/7a3c7dc7-4036-4cfd-b714-4cc87fbe4637",
+      "params": {
+        "rel": "self"
+      }
+    },
+    "modifiedTimestamp": 1767874954570,
+    "name": "s3todatabase",
+    "type": "Flow",
+    "versionCount": 1
+  },
+  "flowContents": {
+    "comments": "",
+    "componentType": "PROCESS_GROUP",
+    "connections": [],
+    "controllerServices": [],
+    "defaultBackPressureDataSizeThreshold": "1 GB",
+    "defaultBackPressureObjectThreshold": 10000,
+    "defaultFlowFileExpiration": "0 sec",
+    "flowFileConcurrency": "UNBOUNDED",
+    "flowFileOutboundPolicy": "STREAM_WHEN_AVAILABLE",
+    "funnels": [],
+    "identifier": "52d58270-0a4f-3193-99b7-67f27a69b99e",
+    "inputPorts": [],
+    "instanceIdentifier": "c70d32a3-9de3-1b59-4454-2e6ba025e048",
+    "labels": [],
+    "name": "S3ToDatabaseFlow",
+    "outputPorts": [],
+    "position": {
+      "x": 1208,
+      "y": -144
+    },
+    "processGroups": [],
+    "processors": [],
+    "remoteProcessGroups": [],
+    "variables": {}
+  },
+  "flowEncodingVersion": "1.0",
+  "parameterContexts": {},
+  "parameterProviders": {},
+  "snapshotMetadata": {
+    "author": "anonymous",
+    "bucketIdentifier": "AI_Generated_Flows",
+    "comments": "",
+    "flowIdentifier": "s3todatabase",
+    "link": {
+      "href": "buckets/9fd9b772-1140-4ca9-9cf7-6433901fd6ea/flows/7a3c7dc7-4036-4cfd-b714-4cc87fbe4637/versions/1",
+      "params": {
+        "rel": "content"
+      }
+    },
+    "timestamp": 1767874954547,
+    "version": 1
+  }
+}
